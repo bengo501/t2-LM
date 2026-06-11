@@ -1221,23 +1221,23 @@
   "gold_name": "Fralda pampers confort sec g 128 unidades",
   "top5": [
    {
-    "id": "07500435130240",
-    "name": "Fralda pampers confort sec g 128 unidades",
-    "score": 1.0
-   },
-   {
     "id": "07500435106672",
     "name": "Fralda pampers confort sec g 60 unidades",
     "score": 1.0
    },
    {
-    "id": "07500435106665",
-    "name": "Fralda pampers confort sec m 70 unidades",
-    "score": 0.9722
+    "id": "07500435130240",
+    "name": "Fralda pampers confort sec g 128 unidades",
+    "score": 1.0
    },
    {
     "id": "07500435130233",
     "name": "Fralda pampers confort sec m 148 unidades",
+    "score": 0.9722
+   },
+   {
+    "id": "07500435106665",
+    "name": "Fralda pampers confort sec m 70 unidades",
     "score": 0.9722
    },
    {
@@ -1637,13 +1637,13 @@
   "gold_name": "Leite uht semidesnatado parmalat garrafa 1 litro",
   "top5": [
    {
-    "id": "07891097001031",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
+    "id": "27891097001035",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
     "score": 1.0
    },
    {
-    "id": "27891097001035",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
+    "id": "07891097001031",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
     "score": 1.0
    },
    {
@@ -2068,14 +2068,14 @@
     "score": 0.7455
    },
    {
-    "id": "07891000538500",
-    "name": "Creme de cebola maggi 68g",
-    "score": 0.6721
-   },
-   {
     "id": "07891121205008",
     "name": "Licor de cereja cherry brandy stock 720ml",
     "score": 0.6471
+   },
+   {
+    "id": "07891121294002",
+    "name": "Licor de abacaxi e coco piña colada cream stock gold 720ml",
+    "score": 0.6276
    }
   ]
  },
@@ -4783,19 +4783,19 @@
     "score": 0.5909
    },
    {
-    "id": "07891000120521",
-    "name": "Sorvete de flocos tradicional nestlé 1,5 litro",
-    "score": 0.5875
-   },
-   {
     "id": "07896436101403",
     "name": "Refrigerante fruki citrus 1,5 litro",
     "score": 0.5793
    },
    {
-    "id": "07891141019838",
-    "name": "Suco de uva integral aurora 1,5 litro",
-    "score": 0.572
+    "id": "07896100501836",
+    "name": "Suco de uva branca aliança 1,5 litro",
+    "score": 0.5563
+   },
+   {
+    "id": "07891000106969",
+    "name": "Sorvete napolitano especialidades nestlé 1,5 litro",
+    "score": 0.5394
    }
   ]
  },
@@ -4948,14 +4948,14 @@
     "score": 0.9027
    },
    {
-    "id": "07898106899030",
-    "name": "Iogurte natural sans souci 750g",
-    "score": 0.897
-   },
-   {
     "id": "07891097086311",
     "name": "Iogurte de pêssego pedaços batavo 450g",
     "score": 0.8956
+   },
+   {
+    "id": "07898962937112",
+    "name": "Iogurte natural integral fazenda trevisan 500g",
+    "score": 0.8832
    }
   ]
  },
@@ -5081,9 +5081,9 @@
     "score": 0.7847
    },
    {
-    "id": "07896333000960",
-    "name": "Tomate pelado capellini 400g",
-    "score": 0.7429
+    "id": "07898235610049",
+    "name": "Tomate temperado semi desidratado primodoro 80g",
+    "score": 0.7225
    }
   ]
  },
@@ -5401,9 +5401,9 @@
     "score": 0.8743
    },
    {
-    "id": "07891097104411",
-    "name": "Requeijão cremoso tradicional elegê 400g",
-    "score": 0.8427
+    "id": "07891515775636",
+    "name": "Mortadela tradicional fatiada perdigão 200g",
+    "score": 0.8567
    }
   ]
  },
@@ -5669,13 +5669,13 @@
   "gold_name": "Cerveja corona cero sunbrew long neck 330ml",
   "top5": [
    {
-    "id": "07891991305679",
-    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
+    "id": "07891991304184",
+    "name": "Cerveja corona cero sunbrew long neck 330ml",
     "score": 0.9683
    },
    {
-    "id": "07891991304184",
-    "name": "Cerveja corona cero sunbrew long neck 330ml",
+    "id": "07891991305679",
+    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
     "score": 0.9683
    },
    {
@@ -5684,13 +5684,13 @@
     "score": 0.8901
    },
    {
-    "id": "07891149108749",
-    "name": "Cerveja coronita extra long neck 210ml 6 un",
+    "id": "07891149108763",
+    "name": "Cerveja coronita extra long neck 210ml",
     "score": 0.805
    },
    {
-    "id": "07891149108763",
-    "name": "Cerveja coronita extra long neck 210ml",
+    "id": "07891149108749",
+    "name": "Cerveja coronita extra long neck 210ml 6 un",
     "score": 0.805
    }
   ]
@@ -6065,7 +6065,7 @@
    {
     "id": "07896205788408",
     "name": "Massa para lasanha adria 500g",
-    "score": 0.8217
+    "score": 0.8218
    },
    {
     "id": "07896249500066",
@@ -6201,9 +6201,9 @@
     "score": 0.7376
    },
    {
-    "id": "04006000178882",
-    "name": "Desodorante aerossol antitranspirante nivea derma control uniformiza 150ml",
-    "score": 0.7193
+    "id": "07891150100701",
+    "name": "Desodorante aerossol antitranspirante dove fresh care lavanda & baunilha 150ml",
+    "score": 0.7208
    }
   ]
  },
@@ -6521,9 +6521,9 @@
     "score": 0.8192
    },
    {
-    "id": "07898206502731",
-    "name": "Açúcar demerara orgânico native sachê 5g 50 unidades",
-    "score": 0.8023
+    "id": "07897122603652",
+    "name": "Grão-de-bico orgânico vapza 250g",
+    "score": 0.8105
    }
   ]
  },
@@ -7892,14 +7892,14 @@
     "score": 0.8516
    },
    {
+    "id": "07896200052788",
+    "name": "Biscoito raminho zezé 200g",
+    "score": 0.8133
+   },
+   {
     "id": "07896024760135",
     "name": "Biscoito roladinho goiabinha piraquê 75g",
     "score": 0.7894
-   },
-   {
-    "id": "07898316220075",
-    "name": "Biscoito amanteigado noe 380g",
-    "score": 0.7877
    }
   ]
  },
@@ -7951,19 +7951,19 @@
     "score": 0.8982
    },
    {
+    "id": "07501006721133",
+    "name": "Shampoo pantene restauração 400ml",
+    "score": 0.8534
+   },
+   {
+    "id": "07891033519330",
+    "name": "Shampoo de glicerina pampers 400ml",
+    "score": 0.8301
+   },
+   {
     "id": "07500435188333",
     "name": "Conjunto shampoo 360ml + condicionador 180ml aussie bye bye frizz",
     "score": 0.8278
-   },
-   {
-    "id": "07896498550072",
-    "name": "Shampoo automotivo d-shamp delux 500ml",
-    "score": 0.8192
-   },
-   {
-    "id": "07500435184953",
-    "name": "Shampoo aussie btx effect 360ml",
-    "score": 0.7905
    }
   ]
  },

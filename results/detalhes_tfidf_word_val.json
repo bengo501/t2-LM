@@ -810,23 +810,23 @@
     "score": 1.0
    },
    {
-    "id": "07500435106672",
-    "name": "Fralda pampers confort sec g 60 unidades",
-    "score": 1.0
-   },
-   {
-    "id": "07500435181297",
-    "name": "Fralda pampers confort sec p 72 unidades",
-    "score": 1.0
-   },
-   {
     "id": "07500435130233",
     "name": "Fralda pampers confort sec m 148 unidades",
     "score": 1.0
    },
    {
+    "id": "07500435106672",
+    "name": "Fralda pampers confort sec g 60 unidades",
+    "score": 1.0
+   },
+   {
     "id": "07500435130240",
     "name": "Fralda pampers confort sec g 128 unidades",
+    "score": 1.0
+   },
+   {
+    "id": "07500435181297",
+    "name": "Fralda pampers confort sec p 72 unidades",
     "score": 1.0
    }
   ]
@@ -1226,23 +1226,23 @@
     "score": 1.0
    },
    {
-    "id": "07500435106672",
-    "name": "Fralda pampers confort sec g 60 unidades",
-    "score": 1.0
-   },
-   {
-    "id": "07500435181297",
-    "name": "Fralda pampers confort sec p 72 unidades",
-    "score": 1.0
-   },
-   {
     "id": "07500435130233",
     "name": "Fralda pampers confort sec m 148 unidades",
     "score": 1.0
    },
    {
+    "id": "07500435106672",
+    "name": "Fralda pampers confort sec g 60 unidades",
+    "score": 1.0
+   },
+   {
     "id": "07500435130240",
     "name": "Fralda pampers confort sec g 128 unidades",
+    "score": 1.0
+   },
+   {
+    "id": "07500435181297",
+    "name": "Fralda pampers confort sec p 72 unidades",
     "score": 1.0
    }
   ]
@@ -1386,13 +1386,13 @@
     "score": 0.8394
    },
    {
-    "id": "07891010032937",
-    "name": "Hastes flexíveis cotonetes johnson & johnson 150 unidades",
+    "id": "07891010047764",
+    "name": "Hastes flexíveis cotonetes johnson & johnson 300 unidades",
     "score": 0.8394
    },
    {
-    "id": "07891010047764",
-    "name": "Hastes flexíveis cotonetes johnson & johnson 300 unidades",
+    "id": "07891010032937",
+    "name": "Hastes flexíveis cotonetes johnson & johnson 150 unidades",
     "score": 0.8394
    },
    {
@@ -1765,12 +1765,12 @@
   "gold_name": "Molho shoyu light sakura 150ml",
   "top5": [
    {
-    "id": "07896007810123",
+    "id": "07896007800056",
     "name": "Molho shoyu light sakura 150ml",
     "score": 1.0
    },
    {
-    "id": "07896007800056",
+    "id": "07896007810123",
     "name": "Molho shoyu light sakura 150ml",
     "score": 1.0
    },
@@ -2181,13 +2181,13 @@
   "gold_name": "Cerveja budweiser zero álcool lata 350ml",
   "top5": [
    {
-    "id": "07891991298407",
-    "name": "Cerveja budweiser zero álcool lata 350ml 8 un",
+    "id": "07891991298414",
+    "name": "Cerveja budweiser zero álcool lata 350ml",
     "score": 0.668
    },
    {
-    "id": "07891991298414",
-    "name": "Cerveja budweiser zero álcool lata 350ml",
+    "id": "07891991298407",
+    "name": "Cerveja budweiser zero álcool lata 350ml 8 un",
     "score": 0.668
    },
    {
@@ -2196,13 +2196,13 @@
     "score": 0.5625
    },
    {
-    "id": "07896045506910",
-    "name": "Cerveja heineken 0.0 zero álcool lata 350ml 12 un",
+    "id": "07896045506927",
+    "name": "Cerveja heineken 0.0 zero álcool lata 350ml",
     "score": 0.5191
    },
    {
-    "id": "07896045506927",
-    "name": "Cerveja heineken 0.0 zero álcool lata 350ml",
+    "id": "07896045506910",
+    "name": "Cerveja heineken 0.0 zero álcool lata 350ml 12 un",
     "score": 0.5191
    }
   ]
@@ -3791,13 +3791,13 @@
     "score": 0.5433
    },
    {
-    "id": "01220000250031",
-    "name": "Energético monster energy juice pacific punch lata 473ml",
+    "id": "07898938890045",
+    "name": "Energético monster energy juice pipeline punch lata 473ml",
     "score": 0.5308
    },
    {
-    "id": "07898938890045",
-    "name": "Energético monster energy juice pipeline punch lata 473ml",
+    "id": "01220000250031",
+    "name": "Energético monster energy juice pacific punch lata 473ml",
     "score": 0.5308
    },
    {
@@ -5556,13 +5556,13 @@
     "score": 0.6649
    },
    {
-    "id": "07891097001031",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
+    "id": "27891097001035",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
     "score": 0.6615
    },
    {
-    "id": "27891097001035",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
+    "id": "07891097001031",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
     "score": 0.6615
    }
   ]

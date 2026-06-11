@@ -17,10 +17,10 @@
 
 | Query | Esperado | Obtido (top-1) | Posição do correto | Diagnóstico |
 |---|---|---|---|---|
-| Refrigerante Laranja Fanta Lata 350ml | Refrigerante fanta laranja lata 350ml | Refrigerante fanta laranja lata 350ml 12 un | 2 | variante/sabor/versão errada do mesmo produto |
+| Fralda Pampers Confort Sec G 128 Unidades | Fralda pampers confort sec g 128 unidades | Fralda pampers confort sec g 60 unidades | 2 | variante/sabor/versão errada do mesmo produto |
 | Espumante Casa Valduga Arte Tradicional Brut 750ml | Espumante brut branco arte tradicional casa valduga 750ml | Espumante brut rosé arte tradicional casa valduga 750ml | 2 | variante/sabor/versão errada do mesmo produto |
 
-## Abordagem 2 (deep_hybrid): 235 acertos, 15 erros (P@1=0.940)
+## Abordagem 2 (deep_hybrid): 236 acertos, 14 erros (P@1=0.944)
 
 ### Exemplos de acertos
 
@@ -37,14 +37,13 @@
 | Query | Esperado | Obtido (top-1) | Posição do correto | Diagnóstico |
 |---|---|---|---|---|
 | Pipoca para Microondas Manteiga YOKI 100g | Pipoca para micro-ondas manteiga yoki 100g | Saco hermético para freezer e microondas 31x27cm conserv 8 unidades | >5 | produto diferente (similaridade lexical enganosa) |
-| Leite UHT Semidesnatado Parmalat Garrafa 1 Litro | Leite uht semidesnatado parmalat garrafa 1 litro | Leite uht semidesnatado parmalat garrafa 1 litro 6 un | 2 | variante/sabor/versão errada do mesmo produto |
+| Fralda Pampers Confort Sec G 128 Unidades | Fralda pampers confort sec g 128 unidades | Fralda pampers confort sec g 60 unidades | 2 | variante/sabor/versão errada do mesmo produto |
 | Vinho Argentino Tinto Cordero con Piel de Lobo 750ml | Cordero con piel de lobo tinto de tintas argentino vinho tinto 750ml | Cordero con piel de lobo malbec argentino vinho tinto 750ml | >5 | variante/sabor/versão errada do mesmo produto |
 | Espumante Casa Valduga Arte Tradicional Brut 750ml | Espumante brut branco arte tradicional casa valduga 750ml | Espumante brut rosé arte tradicional casa valduga 750ml | 2 | variante/sabor/versão errada do mesmo produto |
 | Biscoito Recheado Chocolícia 132g | Biscoito recheado chocolate chocolícia 132g | Biscoito recheado tortinha de limão trakinas 126g | >5 | tamanho/quantidade errada |
 | Creme Dental Antitártaro Colgate Total 12 Caixa 180g | Creme dental colgate total 12 anti-tártaro 180g | Creme dental colgate total 12 gengiva reforçada 180g | 2 | variante/sabor/versão errada do mesmo produto |
 | Refresco em Pó Laranja Docinha Tang Pacote 18g | Refresco em pó laranja docinha tang 18g | Refresco em pó laranja tang 18g | 2 | variante/sabor/versão errada do mesmo produto |
 | Queijo Maasdam Président 160g | Queijo tipo maasdam président 160g | Queijo mussarela fatiado président 150g | 3 | tamanho/quantidade errada |
-| CORONA CERO SUNBREW LONG NECK 330ML - C/24 | Cerveja corona cero sunbrew long neck 330ml | Cerveja corona cero sunbrew long neck 330ml 6 un | 2 | variante/sabor/versão errada do mesmo produto |
 | Refresco em Pó Maracujá Tang Pacote 18g | Refresco em pó maracujá tang 18g | Refresco em pó manga tang 18g | 4 | variante/sabor/versão errada do mesmo produto |
 | Pipoca para Microondas Sabor Natural YOKI com Sal 100g | Pipoca para micro-ondas natural com sal yoki 100g | Salgadinho tostitos sabor toque de sal marinho 110g | >5 | tamanho/quantidade errada |
 | Aperitivo Lillet Blanc de Vinho Francês - 750 ml | Aperitivo francês lillet blanc 750ml | Bergerac francês vinho tinto 750ml | 3 | variante/sabor/versão errada do mesmo produto |
@@ -54,16 +53,15 @@
 
 ## Comparação direta
 
-- Erros só da Abordagem 1 (deep acertou): 1
-  - Refrigerante Laranja Fanta Lata 350ml
-- Erros só da Abordagem 2 (clássico acertou): 14
-  - Pipoca para Microondas Sabor Natural YOKI com Sal 100g
+- Erros só da Abordagem 1 (deep acertou): 0
+- Erros só da Abordagem 2 (clássico acertou): 12
+  - Biscoito Salgado Piraquê Presuntinho 100g
   - Biscoito Recheado Chocolícia 132g
   - Creme Dental Antitártaro Colgate Total 12 Caixa 180g
-  - Refresco em Pó Laranja Docinha Tang Pacote 18g
-  - Aperitivo Lillet Blanc de Vinho Francês - 750 ml
   - Sal Grosso para Churrasco CISNE Pacote 1kg
-- Erros em comum: 1
+  - Refresco em Pó Laranja Docinha Tang Pacote 18g
+  - Vinho Argentino Tinto Cordero con Piel de Lobo 750ml
+- Erros em comum: 2
 
 ## Casos ambíguos
 
@@ -71,8 +69,8 @@ Queries cujo produto correto tem nome duplicado no catálogo (ids diferentes, me
 
 | Query | Top-1 | Top-2 | Δ score | Observação |
 |---|---|---|---|---|
-| Refrigerante Laranja Fanta Lata 350ml | Refrigerante fanta laranja lata 350ml 12 un | Refrigerante fanta laranja lata 350ml | 0.0000 | scores quase empatados |
-| Fralda Pampers Confort Sec G 128 Unidades | Fralda pampers confort sec g 128 unidades | Fralda pampers confort sec g 60 unidades | 0.0000 | scores quase empatados |
+| Refrigerante Laranja Fanta Lata 350ml | Refrigerante fanta laranja lata 350ml | Refrigerante fanta laranja lata 350ml 12 un | 0.0000 | scores quase empatados |
+| Fralda Pampers Confort Sec G 128 Unidades | Fralda pampers confort sec g 60 unidades | Fralda pampers confort sec g 128 unidades | 0.0000 | scores quase empatados |
 | Leite UHT Semidesnatado Parmalat Garrafa 1 Litro | Leite uht semidesnatado parmalat garrafa 1 litro | Leite uht semidesnatado parmalat garrafa 1 litro 6 un | 0.0000 | scores quase empatados |
 | Espumante Casa Valduga Arte Tradicional Brut 750ml | Espumante brut rosé arte tradicional casa valduga 750ml | Espumante brut branco arte tradicional casa valduga 750ml | 0.0009 | scores quase empatados |
 | CORONA CERO SUNBREW LONG NECK 330ML - C/24 | Cerveja corona cero sunbrew long neck 330ml | Cerveja corona cero sunbrew long neck 330ml 6 un | 0.0000 | scores quase empatados |

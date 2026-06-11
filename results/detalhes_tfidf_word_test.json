@@ -389,13 +389,13 @@
   "gold_name": "Refrigerante fanta laranja lata 350ml",
   "top5": [
    {
-    "id": "07894900030013",
-    "name": "Refrigerante fanta laranja lata 350ml 12 un",
+    "id": "47894900030011",
+    "name": "Refrigerante fanta laranja lata 350ml",
     "score": 0.7226
    },
    {
-    "id": "47894900030011",
-    "name": "Refrigerante fanta laranja lata 350ml",
+    "id": "07894900030013",
+    "name": "Refrigerante fanta laranja lata 350ml 12 un",
     "score": 0.7226
    },
    {
@@ -554,13 +554,13 @@
     "score": 0.6978
    },
    {
-    "id": "07894900030013",
-    "name": "Refrigerante fanta laranja lata 350ml 12 un",
+    "id": "47894900030011",
+    "name": "Refrigerante fanta laranja lata 350ml",
     "score": 0.6222
    },
    {
-    "id": "47894900030011",
-    "name": "Refrigerante fanta laranja lata 350ml",
+    "id": "07894900030013",
+    "name": "Refrigerante fanta laranja lata 350ml 12 un",
     "score": 0.6222
    },
    {
@@ -1226,23 +1226,23 @@
     "score": 1.0
    },
    {
-    "id": "07500435106672",
-    "name": "Fralda pampers confort sec g 60 unidades",
-    "score": 1.0
-   },
-   {
-    "id": "07500435181297",
-    "name": "Fralda pampers confort sec p 72 unidades",
-    "score": 1.0
-   },
-   {
     "id": "07500435130233",
     "name": "Fralda pampers confort sec m 148 unidades",
     "score": 1.0
    },
    {
+    "id": "07500435106672",
+    "name": "Fralda pampers confort sec g 60 unidades",
+    "score": 1.0
+   },
+   {
     "id": "07500435130240",
     "name": "Fralda pampers confort sec g 128 unidades",
+    "score": 1.0
+   },
+   {
+    "id": "07500435181297",
+    "name": "Fralda pampers confort sec p 72 unidades",
     "score": 1.0
    }
   ]
@@ -1637,13 +1637,13 @@
   "gold_name": "Leite uht semidesnatado parmalat garrafa 1 litro",
   "top5": [
    {
-    "id": "07891097001031",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
+    "id": "27891097001035",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
     "score": 1.0
    },
    {
-    "id": "27891097001035",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
+    "id": "07891097001031",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
     "score": 1.0
    },
    {
@@ -2703,13 +2703,13 @@
     "score": 0.5319
    },
    {
-    "id": "00000078938830",
-    "name": "Bala menta halls 28g",
+    "id": "07622210956798",
+    "name": "Bala menta halls 28g 3 unidades",
     "score": 0.5131
    },
    {
-    "id": "07622210956798",
-    "name": "Bala menta halls 28g 3 unidades",
+    "id": "00000078938830",
+    "name": "Bala menta halls 28g",
     "score": 0.5131
    },
    {
@@ -3956,13 +3956,13 @@
     "score": 0.4132
    },
    {
-    "id": "07896045506590",
-    "name": "Cerveja heineken lata 269ml 8 un",
+    "id": "07896045506606",
+    "name": "Cerveja heineken lata 269ml",
     "score": 0.2486
    },
    {
-    "id": "07896045506606",
-    "name": "Cerveja heineken lata 269ml",
+    "id": "07896045506590",
+    "name": "Cerveja heineken lata 269ml 8 un",
     "score": 0.2486
    }
   ]
@@ -5669,13 +5669,13 @@
   "gold_name": "Cerveja corona cero sunbrew long neck 330ml",
   "top5": [
    {
-    "id": "07891991305679",
-    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
+    "id": "07891991304184",
+    "name": "Cerveja corona cero sunbrew long neck 330ml",
     "score": 0.9368
    },
    {
-    "id": "07891991304184",
-    "name": "Cerveja corona cero sunbrew long neck 330ml",
+    "id": "07891991305679",
+    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
     "score": 0.9368
    },
    {
@@ -5898,13 +5898,13 @@
     "score": 0.713
    },
    {
-    "id": "07500435158688",
-    "name": "Desodorante spray antitranspirante old spice pegador 200ml embalagem econômica",
+    "id": "07500435143233",
+    "name": "Desodorante spray antitranspirante old spice vip 200ml embalagem econômica",
     "score": 0.6005
    },
    {
-    "id": "07500435143233",
-    "name": "Desodorante spray antitranspirante old spice vip 200ml embalagem econômica",
+    "id": "07500435158688",
+    "name": "Desodorante spray antitranspirante old spice pegador 200ml embalagem econômica",
     "score": 0.6005
    },
    {
@@ -7018,13 +7018,13 @@
     "score": 0.904
    },
    {
-    "id": "07500435132435",
-    "name": "Fralda pampers premium care m 80 unidades",
+    "id": "07500435132442",
+    "name": "Fralda pampers premium care g 68 unidades",
     "score": 0.6825
    },
    {
-    "id": "07500435132442",
-    "name": "Fralda pampers premium care g 68 unidades",
+    "id": "07500435132435",
+    "name": "Fralda pampers premium care m 80 unidades",
     "score": 0.6825
    },
    {

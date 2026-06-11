@@ -805,13 +805,13 @@
   "gold_name": "Fralda pampers confort sec m 148 unidades",
   "top5": [
    {
-    "id": "07500435130233",
-    "name": "Fralda pampers confort sec m 148 unidades",
+    "id": "07500435106665",
+    "name": "Fralda pampers confort sec m 70 unidades",
     "score": 1.0
    },
    {
-    "id": "07500435106665",
-    "name": "Fralda pampers confort sec m 70 unidades",
+    "id": "07500435130233",
+    "name": "Fralda pampers confort sec m 148 unidades",
     "score": 1.0
    },
    {
@@ -985,9 +985,9 @@
     "score": 0.7429
    },
    {
-    "id": "07896020633389",
-    "name": "Conjunto assador 3338 mor 3 peças",
-    "score": 0.7189
+    "id": "08595135532066",
+    "name": "Conjunto taças de cristal gin tonic bohemia 620ml 4 peças",
+    "score": 0.7017
    }
   ]
  },
@@ -1012,13 +1012,13 @@
     "score": 0.929
    },
    {
-    "id": "07891149210503",
-    "name": "Cerveja caracu sweet stout lata 350ml 12 un",
+    "id": "07891149100057",
+    "name": "Cerveja caracu sweet stout lata 350ml",
     "score": 0.9207
    },
    {
-    "id": "07891149100057",
-    "name": "Cerveja caracu sweet stout lata 350ml",
+    "id": "07891149210503",
+    "name": "Cerveja caracu sweet stout lata 350ml 12 un",
     "score": 0.9207
    }
   ]
@@ -1081,9 +1081,9 @@
     "score": 0.936
    },
    {
-    "id": "07622202258459",
-    "name": "Chocolate lacta ao leite 28g",
-    "score": 0.9351
+    "id": "08445290771858",
+    "name": "Chocolate nestlé extrafino com recheio de doce de leite 83g",
+    "score": 0.9303
    }
   ]
  },
@@ -1221,13 +1221,13 @@
   "gold_name": "Fralda pampers confort sec m 70 unidades",
   "top5": [
    {
-    "id": "07500435130233",
-    "name": "Fralda pampers confort sec m 148 unidades",
+    "id": "07500435106665",
+    "name": "Fralda pampers confort sec m 70 unidades",
     "score": 1.0
    },
    {
-    "id": "07500435106665",
-    "name": "Fralda pampers confort sec m 70 unidades",
+    "id": "07500435130233",
+    "name": "Fralda pampers confort sec m 148 unidades",
     "score": 1.0
    },
    {
@@ -1903,11 +1903,6 @@
     "score": 0.9093
    },
    {
-    "id": "07891000364291",
-    "name": "Biscoito recheado limão siciliano fininho bono nestlé 57g",
-    "score": 0.854
-   },
-   {
     "id": "07891000376959",
     "name": "Biscoito recheado morango bono nestlé 90g",
     "score": 0.8424
@@ -1916,6 +1911,11 @@
     "id": "07896022086404",
     "name": "Biscoito recheado morango tortinhas isabela 140g",
     "score": 0.8402
+   },
+   {
+    "id": "07891000241295",
+    "name": "Biscoito recheado de morango passatempo nestlé 130g",
+    "score": 0.8373
    }
   ]
  },
@@ -1925,13 +1925,13 @@
   "gold_name": "Bala menta halls 28g",
   "top5": [
    {
-    "id": "00000078938830",
-    "name": "Bala menta halls 28g",
+    "id": "07622210956798",
+    "name": "Bala menta halls 28g 3 unidades",
     "score": 0.9164
    },
    {
-    "id": "07622210956798",
-    "name": "Bala menta halls 28g 3 unidades",
+    "id": "00000078938830",
+    "name": "Bala menta halls 28g",
     "score": 0.9164
    },
    {
@@ -1972,14 +1972,14 @@
     "score": 0.8059
    },
    {
+    "id": "07898000051008",
+    "name": "Alho picadinho aica 200g",
+    "score": 0.7775
+   },
+   {
     "id": "07896041172706",
     "name": "Mostarda oderich 190g",
     "score": 0.7448
-   },
-   {
-    "id": "07896041172805",
-    "name": "Mostarda picante oderich 190g",
-    "score": 0.714
    }
   ]
  },
@@ -2095,13 +2095,13 @@
     "score": 0.7337
    },
    {
-    "id": "07622210956798",
-    "name": "Bala menta halls 28g 3 unidades",
+    "id": "00000078938830",
+    "name": "Bala menta halls 28g",
     "score": 0.7201
    },
    {
-    "id": "00000078938830",
-    "name": "Bala menta halls 28g",
+    "id": "07622210956798",
+    "name": "Bala menta halls 28g 3 unidades",
     "score": 0.7201
    },
    {
@@ -2181,13 +2181,13 @@
   "gold_name": "Cerveja budweiser zero álcool lata 350ml",
   "top5": [
    {
-    "id": "07891991298407",
-    "name": "Cerveja budweiser zero álcool lata 350ml 8 un",
+    "id": "07891991298414",
+    "name": "Cerveja budweiser zero álcool lata 350ml",
     "score": 0.9921
    },
    {
-    "id": "07891991298414",
-    "name": "Cerveja budweiser zero álcool lata 350ml",
+    "id": "07891991298407",
+    "name": "Cerveja budweiser zero álcool lata 350ml 8 un",
     "score": 0.9921
    },
    {
@@ -2228,14 +2228,14 @@
     "score": 0.8828
    },
    {
+    "id": "07896029046623",
+    "name": "Ração úmida para gatos whiskas adultos castrados carne ao molho sachê 85g",
+    "score": 0.8752
+   },
+   {
     "id": "07896029092439",
     "name": "Ração para gatos castrados whiskas adultos carne 900g",
     "score": 0.8739
-   },
-   {
-    "id": "07891000364079",
-    "name": "Ração para gatos friskies purina castrados mix carnes 1kg",
-    "score": 0.8725
    }
   ]
  },
@@ -2287,13 +2287,13 @@
     "score": 0.9153
    },
    {
-    "id": "00000078938830",
-    "name": "Bala menta halls 28g",
+    "id": "07622210956798",
+    "name": "Bala menta halls 28g 3 unidades",
     "score": 0.9152
    },
    {
-    "id": "07622210956798",
-    "name": "Bala menta halls 28g 3 unidades",
+    "id": "00000078938830",
+    "name": "Bala menta halls 28g",
     "score": 0.9152
    },
    {
@@ -4185,9 +4185,9 @@
     "score": 0.6956
    },
    {
-    "id": "07896044954897",
-    "name": "Shampoo anticaspa phytoervas 250ml",
-    "score": 0.6892
+    "id": "07896512907493",
+    "name": "Shampoo granado bebê 250ml",
+    "score": 0.6824
    }
   ]
  },
@@ -4601,9 +4601,9 @@
     "score": 0.5576
    },
    {
-    "id": "07891150050242",
-    "name": "Sorvete de flocos cremosíssimo kibon 1,5 litro",
-    "score": 0.5546
+    "id": "07891150055858",
+    "name": "Sorvete de napolitano cremosíssimo kibon 1,5 litro",
+    "score": 0.5283
    }
   ]
  },
@@ -5317,12 +5317,12 @@
   "gold_name": "Adoçante líquido sucralose linea 75ml",
   "top5": [
    {
-    "id": "07896001250611",
+    "id": "07896001250628",
     "name": "Adoçante líquido sucralose linea 75ml",
     "score": 1.0
    },
    {
-    "id": "07896001250628",
+    "id": "07896001250611",
     "name": "Adoçante líquido sucralose linea 75ml",
     "score": 1.0
    },
@@ -5546,13 +5546,13 @@
     "score": 1.0
    },
    {
-    "id": "07891097001031",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
+    "id": "27891097001035",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
     "score": 0.9961
    },
    {
-    "id": "27891097001035",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
+    "id": "07891097001031",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
     "score": 0.9961
    },
    {
@@ -5578,13 +5578,13 @@
     "score": 0.9902
    },
    {
-    "id": "07894900030013",
-    "name": "Refrigerante fanta laranja lata 350ml 12 un",
+    "id": "47894900030011",
+    "name": "Refrigerante fanta laranja lata 350ml",
     "score": 0.973
    },
    {
-    "id": "47894900030011",
-    "name": "Refrigerante fanta laranja lata 350ml",
+    "id": "07894900030013",
+    "name": "Refrigerante fanta laranja lata 350ml 12 un",
     "score": 0.973
    },
    {
@@ -5945,9 +5945,9 @@
     "score": 0.7703
    },
    {
-    "id": "07896007811403",
-    "name": "Molho inglês kenko 150ml",
-    "score": 0.7074
+    "id": "07892300030015",
+    "name": "Óleo de milho sinhá 900ml",
+    "score": 0.7542
    }
   ]
  },
@@ -6073,9 +6073,9 @@
     "score": 0.6349
    },
    {
-    "id": "07891095100729",
-    "name": "Pipoca para micro-ondas bacon yoki 100g",
-    "score": 0.6187
+    "id": "07891095200399",
+    "name": "Farinha de milho amarela yoki 500g",
+    "score": 0.6282
    }
   ]
  },
@@ -6831,13 +6831,13 @@
     "score": 0.966
    },
    {
-    "id": "07891991014908",
-    "name": "Refrigerante guaraná antarctica 200ml 12 un",
+    "id": "07891991014915",
+    "name": "Refrigerante guaraná antarctica 200ml",
     "score": 0.9605
    },
    {
-    "id": "07891991014915",
-    "name": "Refrigerante guaraná antarctica 200ml",
+    "id": "07891991014908",
+    "name": "Refrigerante guaraná antarctica 200ml 12 un",
     "score": 0.9605
    },
    {
@@ -7668,14 +7668,14 @@
     "score": 0.8624
    },
    {
-    "id": "07897982700089",
-    "name": "Salgadinho pastelina folhado bacon 100g",
-    "score": 0.8574
-   },
-   {
     "id": "07891000249932",
     "name": "Caldo de bacon maggi 57g",
     "score": 0.8514
+   },
+   {
+    "id": "02376620000002",
+    "name": "Bacon em pedaço pamplona",
+    "score": 0.8473
    }
   ]
  },

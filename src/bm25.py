@@ -45,6 +45,6 @@ class BM25:
 
     def topk(self, query_tokens, k=5):
         s = self.scores(query_tokens)
-        top = np.argpartition(-s, min(k, self.N - 1))[:k]
-        top = top[np.argsort(-s[top])]
+        # ordenação estável: empates resolvidos pela ordem do catálogo (determinístico)
+        top = np.argsort(-s, kind="stable")[:k]
         return [(int(i), float(s[i])) for i in top]

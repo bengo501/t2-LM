@@ -15,13 +15,13 @@
     "score": 32.9007
    },
    {
-    "id": "07891150020689",
-    "name": "Lava-roupas líquido omo lavagem perfeita 3 litros",
+    "id": "07891150025103",
+    "name": "Lava-roupas líquido omo lavagem perfeita 5 litros",
     "score": 32.8837
    },
    {
-    "id": "07891150025103",
-    "name": "Lava-roupas líquido omo lavagem perfeita 5 litros",
+    "id": "07891150020689",
+    "name": "Lava-roupas líquido omo lavagem perfeita 3 litros",
     "score": 32.8837
    },
    {
@@ -202,13 +202,13 @@
     "score": 42.1275
    },
    {
-    "id": "04005808555307",
-    "name": "Protetor solar nivea sun fps30 protect & hidrata 200ml",
+    "id": "04005808956401",
+    "name": "Protetor solar nivea sun fps15 protect & bronze 200ml",
     "score": 35.6092
    },
    {
-    "id": "04005808956401",
-    "name": "Protetor solar nivea sun fps15 protect & bronze 200ml",
+    "id": "04005808555307",
+    "name": "Protetor solar nivea sun fps30 protect & hidrata 200ml",
     "score": 35.6092
    },
    {
@@ -266,13 +266,13 @@
     "score": 30.4771
    },
    {
-    "id": "07896431490588",
-    "name": "Salame pepperoni defumado fatiado aida 100g",
+    "id": "07894904211210",
+    "name": "Salame tipo pepperoni fatiado seara 100g",
     "score": 23.0441
    },
    {
-    "id": "07894904211210",
-    "name": "Salame tipo pepperoni fatiado seara 100g",
+    "id": "07896431490588",
+    "name": "Salame pepperoni defumado fatiado aida 100g",
     "score": 23.0441
    },
    {
@@ -313,8 +313,8 @@
     "score": 29.0452
    },
    {
-    "id": "07891150001268",
-    "name": "Shampoo anticaspa clear men queda control 400ml",
+    "id": "07891150099272",
+    "name": "Shampoo anticaspa clear men hidratação campeã 400ml",
     "score": 25.8147
    }
   ]
@@ -389,13 +389,13 @@
   "gold_name": "Refrigerante fanta laranja lata 350ml",
   "top5": [
    {
-    "id": "07894900030013",
-    "name": "Refrigerante fanta laranja lata 350ml 12 un",
+    "id": "47894900030011",
+    "name": "Refrigerante fanta laranja lata 350ml",
     "score": 29.4068
    },
    {
-    "id": "47894900030011",
-    "name": "Refrigerante fanta laranja lata 350ml",
+    "id": "07894900030013",
+    "name": "Refrigerante fanta laranja lata 350ml 12 un",
     "score": 29.4068
    },
    {
@@ -431,13 +431,13 @@
     "score": 26.0861
    },
    {
-    "id": "07894904274765",
-    "name": "Presunto cozido fatiado seara 350g",
+    "id": "07894904729227",
+    "name": "Presunto cozido fatiado seara 200g",
     "score": 24.0971
    },
    {
-    "id": "07894904729227",
-    "name": "Presunto cozido fatiado seara 200g",
+    "id": "07894904274765",
+    "name": "Presunto cozido fatiado seara 350g",
     "score": 24.0971
    },
    {
@@ -468,13 +468,13 @@
     "score": 10.2956
    },
    {
-    "id": "07898013650441",
-    "name": "Nhoque de batata italiany 500g",
+    "id": "07896249501841",
+    "name": "Nhoque de batata romena 500g",
     "score": 9.4283
    },
    {
-    "id": "07896249501841",
-    "name": "Nhoque de batata romena 500g",
+    "id": "07898013650441",
+    "name": "Nhoque de batata italiany 500g",
     "score": 9.4283
    }
   ]
@@ -697,8 +697,8 @@
     "score": 15.559
    },
    {
-    "id": "07896079530233",
-    "name": "Manteiga extra com sal elegê 200g",
+    "id": "07891025123149",
+    "name": "Manteiga extra com sal danone 200g",
     "score": 15.2476
    }
   ]
@@ -719,18 +719,18 @@
     "score": 25.5571
    },
    {
-    "id": "07891991303200",
-    "name": "Cerveja spaten puro malte lata 473ml 12 un",
-    "score": 24.7127
-   },
-   {
     "id": "07891991303217",
     "name": "Cerveja spaten puro malte lata 473ml",
     "score": 24.7127
    },
    {
-    "id": "07891991295109",
-    "name": "Cerveja stella artois belgium puro malte garrafa 600ml 6 un",
+    "id": "07891991303200",
+    "name": "Cerveja spaten puro malte lata 473ml 12 un",
+    "score": 24.7127
+   },
+   {
+    "id": "07891991295239",
+    "name": "Cerveja stella artois belgium puro malte garrafa 600ml",
     "score": 23.8512
    }
   ]
@@ -793,8 +793,8 @@
     "score": 17.4039
    },
    {
-    "id": "07891000368992",
-    "name": "Chocolate nestlé classic duo 80g",
+    "id": "07891000077948",
+    "name": "Wafer de chocolate classic nestlé 110g",
     "score": 14.0187
    }
   ]
@@ -815,13 +815,13 @@
     "score": 18.1463
    },
    {
-    "id": "00000078922327",
-    "name": "Goma de mascar pure fresh mint mentos 56g",
+    "id": "00000080948094",
+    "name": "Goma de mascar pure fresh mint mentos 92g",
     "score": 13.4723
    },
    {
-    "id": "00000080948094",
-    "name": "Goma de mascar pure fresh mint mentos 92g",
+    "id": "00000078922327",
+    "name": "Goma de mascar pure fresh mint mentos 56g",
     "score": 13.4723
    },
    {
@@ -857,8 +857,8 @@
     "score": 17.6281
    },
    {
-    "id": "00000077306197",
-    "name": "Manteiga extra sem sal conaprole 200g",
+    "id": "03228022910023",
+    "name": "Manteiga sem sal gastronomique président 200g",
     "score": 17.4868
    }
   ]
@@ -948,13 +948,13 @@
     "score": 22.4482
    },
    {
-    "id": "07891024135020",
-    "name": "Creme dental colgate total 12 whitening 90g",
+    "id": "07509546702605",
+    "name": "Creme dental colgate total prevenção ativa 90g",
     "score": 18.1112
    },
    {
-    "id": "07509546702605",
-    "name": "Creme dental colgate total prevenção ativa 90g",
+    "id": "07891024135020",
+    "name": "Creme dental colgate total 12 whitening 90g",
     "score": 18.1112
    }
   ]
@@ -980,13 +980,13 @@
     "score": 29.6611
    },
    {
-    "id": "07896029092392",
-    "name": "Ração para gatos whiskas adultos peixe 2,7kg",
+    "id": "07896029092347",
+    "name": "Ração para gatos whiskas adultos peixe 900g",
     "score": 28.0522
    },
    {
-    "id": "07896029092347",
-    "name": "Ração para gatos whiskas adultos peixe 900g",
+    "id": "07896029092392",
+    "name": "Ração para gatos whiskas adultos peixe 2,7kg",
     "score": 28.0522
    }
   ]
@@ -1039,13 +1039,13 @@
     "score": 27.6198
    },
    {
-    "id": "07896094931503",
-    "name": "Adoçante líquido xilitol com sucralose zero-cal 65ml",
+    "id": "07896094915046",
+    "name": "Adoçante líquido stévia e sucralose zero-cal 80ml",
     "score": 27.2727
    },
    {
-    "id": "07896094915046",
-    "name": "Adoçante líquido stévia e sucralose zero-cal 80ml",
+    "id": "07896094931503",
+    "name": "Adoçante líquido xilitol com sucralose zero-cal 65ml",
     "score": 27.2727
    },
    {
@@ -1140,8 +1140,8 @@
     "score": 26.0188
    },
    {
-    "id": "07891150088702",
-    "name": "Tempero para frango knorr 50g",
+    "id": "07891150088719",
+    "name": "Tempero para carnes knorr 50g",
     "score": 14.4057
    },
    {
@@ -1231,8 +1231,8 @@
     "score": 34.6899
    },
    {
-    "id": "07500435130257",
-    "name": "Fralda pampers confort sec xg 116 unidades",
+    "id": "07500435132619",
+    "name": "Fralda pampers confort sec xxg 56 unidades",
     "score": 27.6198
    },
    {
@@ -1241,8 +1241,8 @@
     "score": 27.6198
    },
    {
-    "id": "07500435132619",
-    "name": "Fralda pampers confort sec xxg 56 unidades",
+    "id": "07500435130257",
+    "name": "Fralda pampers confort sec xg 116 unidades",
     "score": 27.6198
    }
   ]
@@ -1354,13 +1354,13 @@
     "score": 32.9242
    },
    {
-    "id": "07891118015313",
-    "name": "Bala leite butter toffees arcor 100g",
+    "id": "07891118015405",
+    "name": "Bala coco butter toffees arcor 100g",
     "score": 29.8817
    },
    {
-    "id": "07891118015405",
-    "name": "Bala coco butter toffees arcor 100g",
+    "id": "07891118015313",
+    "name": "Bala leite butter toffees arcor 100g",
     "score": 29.8817
    },
    {
@@ -1401,8 +1401,8 @@
     "score": 15.6501
    },
    {
-    "id": "07891150088696",
-    "name": "Tempero para feijão knorr 50g",
+    "id": "07891150088719",
+    "name": "Tempero para carnes knorr 50g",
     "score": 14.4057
    }
   ]
@@ -1423,11 +1423,6 @@
     "score": 21.6976
    },
    {
-    "id": "07896000934529",
-    "name": "Peito de frango defumado fatiado minu 150g",
-    "score": 20.7195
-   },
-   {
     "id": "02459950000000",
     "name": "Peito de frango cozido defumado fatiado perdigão",
     "score": 20.7195
@@ -1435,6 +1430,11 @@
    {
     "id": "07896610908064",
     "name": "Peito de frango defumado fatiado excelsior 180g",
+    "score": 20.7195
+   },
+   {
+    "id": "07896000934529",
+    "name": "Peito de frango defumado fatiado minu 150g",
     "score": 20.7195
    }
   ]
@@ -1450,13 +1450,13 @@
     "score": 34.9554
    },
    {
-    "id": "08410036808433",
-    "name": "Freixenet pinot grigio italiano vinho branco 750ml",
+    "id": "08019873024015",
+    "name": "Riporta pinot grigio italiano vinho branco 750ml",
     "score": 27.8194
    },
    {
-    "id": "08019873024015",
-    "name": "Riporta pinot grigio italiano vinho branco 750ml",
+    "id": "08410036808433",
+    "name": "Freixenet pinot grigio italiano vinho branco 750ml",
     "score": 27.8194
    },
    {
@@ -1497,8 +1497,8 @@
     "score": 16.3159
    },
    {
-    "id": "07896001250611",
-    "name": "Adoçante líquido sucralose linea 75ml",
+    "id": "07896001210103",
+    "name": "Adoçante líquido stevia linea 60ml",
     "score": 11.437
    }
   ]
@@ -1546,13 +1546,13 @@
     "score": 38.4481
    },
    {
-    "id": "07896183301781",
-    "name": "Eliminador de odores floral sanol dog 2 litros",
+    "id": "07896183301040",
+    "name": "Eliminador de odores herbal sanol dog 2 litros",
     "score": 34.2639
    },
    {
-    "id": "07896183301040",
-    "name": "Eliminador de odores herbal sanol dog 2 litros",
+    "id": "07896183301781",
+    "name": "Eliminador de odores floral sanol dog 2 litros",
     "score": 34.2639
    },
    {
@@ -1561,8 +1561,8 @@
     "score": 15.8059
    },
    {
-    "id": "07896183300852",
-    "name": "Shampoo antipulgas sanol dog 500ml",
+    "id": "07896183300845",
+    "name": "Shampoo neutro sanol dog 500ml",
     "score": 14.2944
    }
   ]
@@ -1610,13 +1610,13 @@
     "score": 42.3862
    },
    {
-    "id": "07893500025368",
-    "name": "Arroz com funghi cozinha fácil tio joão 250g",
+    "id": "07893500025351",
+    "name": "Arroz com curry cozinha fácil tio joão 250g",
     "score": 33.947
    },
    {
-    "id": "07893500025351",
-    "name": "Arroz com curry cozinha fácil tio joão 250g",
+    "id": "07893500025368",
+    "name": "Arroz com funghi cozinha fácil tio joão 250g",
     "score": 33.947
    },
    {
@@ -1674,13 +1674,13 @@
     "score": 33.5865
    },
    {
-    "id": "07891118015283",
-    "name": "Bala chocolate butter toffees arcor 100g",
+    "id": "07891118015405",
+    "name": "Bala coco butter toffees arcor 100g",
     "score": 29.8817
    },
    {
-    "id": "07891118015405",
-    "name": "Bala coco butter toffees arcor 100g",
+    "id": "07891118015283",
+    "name": "Bala chocolate butter toffees arcor 100g",
     "score": 29.8817
    },
    {
@@ -1844,13 +1844,13 @@
     "score": 22.4387
    },
    {
-    "id": "07896331100136",
-    "name": "Manteiga extra sem sal aviação 200g",
+    "id": "07896079502544",
+    "name": "Manteiga extra sem sal elegê 200g",
     "score": 22.4387
    },
    {
-    "id": "07896079502544",
-    "name": "Manteiga extra sem sal elegê 200g",
+    "id": "07891097015519",
+    "name": "Manteiga extra sem sal batavo 200g",
     "score": 22.4387
    }
   ]
@@ -1871,13 +1871,13 @@
     "score": 15.8433
    },
    {
-    "id": "07622210674319",
-    "name": "Chocolate lacta laka 80g",
+    "id": "07622210674395",
+    "name": "Chocolate lacta shot 80g",
     "score": 15.4501
    },
    {
-    "id": "07622210674395",
-    "name": "Chocolate lacta shot 80g",
+    "id": "07622210674319",
+    "name": "Chocolate lacta laka 80g",
     "score": 15.4501
    },
    {
@@ -1940,8 +1940,8 @@
     "score": 20.5771
    },
    {
-    "id": "07896331100143",
-    "name": "Manteiga extra com sal aviação 200g",
+    "id": "03228020355741",
+    "name": "Manteiga extra com sal président 200g",
     "score": 20.5771
    },
    {
@@ -1967,13 +1967,13 @@
     "score": 33.1666
    },
    {
-    "id": "07898902568109",
-    "name": "Presunto cru fatiado vito balducci 100g",
+    "id": "07898902568680",
+    "name": "Presunto cru fatiado português figueiras 100g",
     "score": 18.5669
    },
    {
-    "id": "07898902568680",
-    "name": "Presunto cru fatiado português figueiras 100g",
+    "id": "07898902568109",
+    "name": "Presunto cru fatiado vito balducci 100g",
     "score": 18.5669
    },
    {
@@ -2009,8 +2009,8 @@
     "score": 13.7375
    },
    {
-    "id": "07896079588548",
-    "name": "Requeijão cremoso tradicional elegê 200g",
+    "id": "07896079588531",
+    "name": "Requeijão cremoso light elegê 200g",
     "score": 11.4676
    }
   ]
@@ -2031,11 +2031,6 @@
     "score": 29.166
    },
    {
-    "id": "07791540140297",
-    "name": "Hereford malbec argentino vinho tinto 750ml",
-    "score": 21.2058
-   },
-   {
     "id": "07792756010022",
     "name": "Lagarde malbec argentino vinho tinto 750ml",
     "score": 21.2058
@@ -2043,6 +2038,11 @@
    {
     "id": "07794450008053",
     "name": "Catena malbec argentino vinho tinto 750ml",
+    "score": 21.2058
+   },
+   {
+    "id": "07798304610010",
+    "name": "Amayan malbec argentino vinho tinto 750ml",
     "score": 21.2058
    }
   ]
@@ -2068,8 +2068,8 @@
     "score": 24.6287
    },
    {
-    "id": "07891121283006",
-    "name": "Licor de marula stock 720ml",
+    "id": "07891121204001",
+    "name": "Licor de café stock 720ml",
     "score": 24.0302
    },
    {
@@ -2105,8 +2105,8 @@
     "score": 17.8824
    },
    {
-    "id": "07892840822798",
-    "name": "Salgadinho elma chips baconzitos 42g",
+    "id": "07892840822811",
+    "name": "Salgadinho elma chips cebolitos 45g",
     "score": 17.8824
    }
   ]
@@ -2250,8 +2250,8 @@
     "score": 30.5861
    },
    {
-    "id": "07896007810017",
-    "name": "Molho shoyu premium sakura 150ml",
+    "id": "07896007800056",
+    "name": "Molho shoyu light sakura 150ml",
     "score": 26.0829
    },
    {
@@ -2260,12 +2260,12 @@
     "score": 26.0829
    },
    {
-    "id": "07896007810123",
-    "name": "Molho shoyu light sakura 150ml",
+    "id": "07896007810017",
+    "name": "Molho shoyu premium sakura 150ml",
     "score": 26.0829
    },
    {
-    "id": "07896007800056",
+    "id": "07896007810123",
     "name": "Molho shoyu light sakura 150ml",
     "score": 26.0829
    }
@@ -2329,8 +2329,8 @@
     "score": 17.3381
    },
    {
-    "id": "07891962037028",
-    "name": "Wafer de triplo chocolate bauducco 140g",
+    "id": "07891962036991",
+    "name": "Wafer de chocolate com avelã bauducco 140g",
     "score": 16.0161
    }
   ]
@@ -2452,13 +2452,13 @@
     "score": 25.2018
    },
    {
-    "id": "09002490283063",
-    "name": "Energético zero red bull lata 250ml",
+    "id": "09002490247379",
+    "name": "Energético melancia red bull lata 250ml",
     "score": 23.4164
    },
    {
-    "id": "09002490247379",
-    "name": "Energético melancia red bull lata 250ml",
+    "id": "09002490283063",
+    "name": "Energético zero red bull lata 250ml",
     "score": 23.4164
    }
   ]
@@ -2479,13 +2479,13 @@
     "score": 31.8537
    },
    {
-    "id": "05601809503447",
-    "name": "Bacalhau desfiado dessalgado congelado riberalves 500g",
+    "id": "05601809007303",
+    "name": "Lombo de bacalhau dessalgado congelado riberalves 600g",
     "score": 26.3927
    },
    {
-    "id": "05601809007303",
-    "name": "Lombo de bacalhau dessalgado congelado riberalves 600g",
+    "id": "05601809503447",
+    "name": "Bacalhau desfiado dessalgado congelado riberalves 500g",
     "score": 26.3927
    },
    {
@@ -2580,13 +2580,13 @@
     "score": 23.0345
    },
    {
-    "id": "07894000050720",
-    "name": "Maionese light hellmann's 500g",
+    "id": "07891150072640",
+    "name": "Conjunto com 2 unidades de maionese hellmann's 500g",
     "score": 22.1172
    },
    {
-    "id": "07891150072640",
-    "name": "Conjunto com 2 unidades de maionese hellmann's 500g",
+    "id": "07894000050720",
+    "name": "Maionese light hellmann's 500g",
     "score": 22.1172
    }
   ]
@@ -2612,13 +2612,13 @@
     "score": 16.7195
    },
    {
-    "id": "07896002303460",
-    "name": "Pão de forma integral artesano pullman 500g",
+    "id": "07896002302197",
+    "name": "Pão de forma original artesano pullman 500g",
     "score": 16.7195
    },
    {
-    "id": "07896002302197",
-    "name": "Pão de forma original artesano pullman 500g",
+    "id": "07896002310345",
+    "name": "Pão de forma na chapa artesano pullman 500g",
     "score": 16.7195
    }
   ]
@@ -2639,13 +2639,13 @@
     "score": 22.3824
    },
    {
-    "id": "07896034680133",
-    "name": "Queijo parmesão ralado président 100g",
+    "id": "07896034680126",
+    "name": "Queijo parmesão ralado président 50g",
     "score": 17.1718
    },
    {
-    "id": "07896034680126",
-    "name": "Queijo parmesão ralado président 50g",
+    "id": "07896034680133",
+    "name": "Queijo parmesão ralado président 100g",
     "score": 17.1718
    },
    {
@@ -2698,8 +2698,8 @@
     "score": 31.2306
    },
    {
-    "id": "00000078938830",
-    "name": "Bala menta halls 28g",
+    "id": "00000078938793",
+    "name": "Bala cereja halls 28g",
     "score": 23.0716
    },
    {
@@ -2708,8 +2708,8 @@
     "score": 23.0716
    },
    {
-    "id": "00000078938793",
-    "name": "Bala cereja halls 28g",
+    "id": "00000078938830",
+    "name": "Bala menta halls 28g",
     "score": 23.0716
    },
    {
@@ -2772,13 +2772,13 @@
     "score": 21.7915
    },
    {
-    "id": "07896004010076",
-    "name": "Batata pringles original 35g",
+    "id": "07896004006277",
+    "name": "Batata pringles original 104g",
     "score": 13.7772
    },
    {
-    "id": "07896004006277",
-    "name": "Batata pringles original 104g",
+    "id": "07896004010076",
+    "name": "Batata pringles original 35g",
     "score": 13.7772
    }
   ]
@@ -2794,13 +2794,13 @@
     "score": 39.8795
    },
    {
-    "id": "07896371000212",
-    "name": "Cerveja therezópolis jade ipa garrafa 500ml",
+    "id": "07896371000236",
+    "name": "Cerveja therezópolis rubine bock garrafa 500ml",
     "score": 21.6231
    },
    {
-    "id": "07896371000236",
-    "name": "Cerveja therezópolis rubine bock garrafa 500ml",
+    "id": "07896371000212",
+    "name": "Cerveja therezópolis jade ipa garrafa 500ml",
     "score": 21.6231
    },
    {
@@ -2841,8 +2841,8 @@
     "score": 17.2735
    },
    {
-    "id": "07896292300057",
-    "name": "Goiabada tradicional predilecta 500g",
+    "id": "07896292360228",
+    "name": "Goiabada cremosa predilecta 230g",
     "score": 16.5786
    }
   ]
@@ -2863,18 +2863,18 @@
     "score": 27.7069
    },
    {
-    "id": "07898955617519",
-    "name": "Queijo prato fatiado président 150g",
-    "score": 20.9274
-   },
-   {
     "id": "07898955617526",
     "name": "Queijo mussarela fatiado président 150g",
     "score": 20.9274
    },
    {
-    "id": "02150350000002",
-    "name": "Queijo minas padrão crioulo",
+    "id": "07898955617519",
+    "name": "Queijo prato fatiado président 150g",
+    "score": 20.9274
+   },
+   {
+    "id": "02541400000002",
+    "name": "Queijo minas padrão pj",
     "score": 20.4094
    }
   ]
@@ -2905,8 +2905,8 @@
     "score": 22.2707
    },
    {
-    "id": "07896371000212",
-    "name": "Cerveja therezópolis jade ipa garrafa 500ml",
+    "id": "07898954975634",
+    "name": "Cerveja roleta russa ipa garrafa 500ml",
     "score": 19.5622
    }
   ]
@@ -2932,13 +2932,13 @@
     "score": 21.9516
    },
    {
-    "id": "07891999960054",
-    "name": "Queijo parmesão ralado faixa azul 50g",
+    "id": "07891999005786",
+    "name": "Fondue de queijo parmesão faixa azul 400g",
     "score": 21.9516
    },
    {
-    "id": "07891999014092",
-    "name": "Queijo parmesão cilindro faixa azul 195g",
+    "id": "07891999960054",
+    "name": "Queijo parmesão ralado faixa azul 50g",
     "score": 21.9516
    }
   ]
@@ -3087,18 +3087,18 @@
     "score": 26.7608
    },
    {
-    "id": "07896331100310",
-    "name": "Manteiga com sal aviação pote 200g",
-    "score": 23.4718
-   },
-   {
     "id": "07896331100051",
     "name": "Manteiga com sal aviação lata 200g",
     "score": 23.4718
    },
    {
-    "id": "07896079530233",
-    "name": "Manteiga extra com sal elegê 200g",
+    "id": "07896331100310",
+    "name": "Manteiga com sal aviação pote 200g",
+    "score": 23.4718
+   },
+   {
+    "id": "07891025123149",
+    "name": "Manteiga extra com sal danone 200g",
     "score": 20.5771
    }
   ]
@@ -3193,8 +3193,8 @@
     "score": 16.0448
    },
    {
-    "id": "07898235531245",
-    "name": "Sopão de legumes resfriado primodoro 500g",
+    "id": "07898920253650",
+    "name": "Sopão de legumes delícias do sítio 500g",
     "score": 14.8215
    }
   ]
@@ -3279,11 +3279,6 @@
     "score": 31.788
    },
    {
-    "id": "07896044955061",
-    "name": "Condicionador phytoervas super-restauração 250ml",
-    "score": 16.9717
-   },
-   {
     "id": "07896044955092",
     "name": "Condicionador phytoervas revitalização e brilho 250ml",
     "score": 16.9717
@@ -3291,6 +3286,11 @@
    {
     "id": "07896044955054",
     "name": "Condicionador phytoervas iluminador camomila 250ml",
+    "score": 16.9717
+   },
+   {
+    "id": "07896044955061",
+    "name": "Condicionador phytoervas super-restauração 250ml",
     "score": 16.9717
    }
   ]
@@ -3353,8 +3353,8 @@
     "score": 16.7787
    },
    {
-    "id": "07891193020400",
-    "name": "Bolo de laranja seven boys 250g",
+    "id": "07898115900024",
+    "name": "Bolo de laranja zero suavipan 250g",
     "score": 15.4994
    }
   ]
@@ -3375,13 +3375,13 @@
     "score": 29.8598
    },
    {
-    "id": "07891150083615",
-    "name": "Condicionador seda infantil juntinhos moana cachos encantados 300ml",
+    "id": "07891150083622",
+    "name": "Condicionador seda infantil juntinhos tiana crespos encantados 300ml",
     "score": 26.6775
    },
    {
-    "id": "07891150083622",
-    "name": "Condicionador seda infantil juntinhos tiana crespos encantados 300ml",
+    "id": "07891150083615",
+    "name": "Condicionador seda infantil juntinhos moana cachos encantados 300ml",
     "score": 26.6775
    },
    {
@@ -3402,23 +3402,23 @@
     "score": 30.1095
    },
    {
-    "id": "07898331012525",
-    "name": "Mistura para bolo aipim cremoso fleischmann 390g",
-    "score": 24.9339
-   },
-   {
     "id": "07898331012549",
     "name": "Mistura para bolo milho cremoso fleischmann 390g",
     "score": 24.9339
    },
    {
-    "id": "07898331014321",
-    "name": "Mistura para bolo torta de limão fleischmann 390g",
+    "id": "07898331014314",
+    "name": "Mistura para bolo cremoso cheesecake fleischmann 390g",
     "score": 24.9339
    },
    {
-    "id": "07898331012563",
-    "name": "Mistura para bolo laranja cremoso fleischmann 390g",
+    "id": "07898331012525",
+    "name": "Mistura para bolo aipim cremoso fleischmann 390g",
+    "score": 24.9339
+   },
+   {
+    "id": "07898331014321",
+    "name": "Mistura para bolo torta de limão fleischmann 390g",
     "score": 24.9339
    }
   ]
@@ -3439,6 +3439,11 @@
     "score": 39.4716
    },
    {
+    "id": "07891150069053",
+    "name": "Lava-roupas em pó omo lavagem perfeita 4kg",
+    "score": 32.8134
+   },
+   {
     "id": "07891150064317",
     "name": "Lava-roupas em pó omo lavagem perfeita 800g",
     "score": 32.8134
@@ -3446,11 +3451,6 @@
    {
     "id": "07891150069121",
     "name": "Lava-roupas em pó omo lavagem perfeita 2,2kg",
-    "score": 32.8134
-   },
-   {
-    "id": "07891150069053",
-    "name": "Lava-roupas em pó omo lavagem perfeita 4kg",
     "score": 32.8134
    }
   ]
@@ -3493,13 +3493,13 @@
   "gold_name": "Cordero con piel de lobo tinto de tintas argentino vinho tinto 750ml",
   "top5": [
    {
-    "id": "07798353195551",
-    "name": "Cordero con piel de lobo bonarda argentino vinho tinto 750ml",
+    "id": "07798353195575",
+    "name": "Cordero con piel de lobo syrah argentino vinho tinto 750ml",
     "score": 37.678
    },
    {
-    "id": "07798353195575",
-    "name": "Cordero con piel de lobo syrah argentino vinho tinto 750ml",
+    "id": "07798353195551",
+    "name": "Cordero con piel de lobo bonarda argentino vinho tinto 750ml",
     "score": 37.678
    },
    {
@@ -3577,8 +3577,8 @@
     "score": 29.536
    },
    {
-    "id": "07908692700136",
-    "name": "Preparado líquido para drinks fitzgerald easy drinks 300ml",
+    "id": "07898951400344",
+    "name": "Preparado para drinks morango e pitaya easy drinks 100g",
     "score": 15.7002
    }
   ]
@@ -3631,18 +3631,18 @@
     "score": 23.6254
    },
    {
+    "id": "07891999960108",
+    "name": "Queijo parmesão ralado faixa azul 100g",
+    "score": 21.9516
+   },
+   {
     "id": "07891999004826",
     "name": "Queijo parmesão lascas faixa azul 150g",
     "score": 21.9516
    },
    {
-    "id": "07891999014092",
-    "name": "Queijo parmesão cilindro faixa azul 195g",
-    "score": 21.9516
-   },
-   {
-    "id": "07891999010216",
-    "name": "Creme de queijo parmesão faixa azul 190g",
+    "id": "07891999960054",
+    "name": "Queijo parmesão ralado faixa azul 50g",
     "score": 21.9516
    }
   ]
@@ -3673,8 +3673,8 @@
     "score": 16.7065
    },
    {
-    "id": "07891000120521",
-    "name": "Sorvete de flocos tradicional nestlé 1,5 litro",
+    "id": "07891000106969",
+    "name": "Sorvete napolitano especialidades nestlé 1,5 litro",
     "score": 15.465
    }
   ]
@@ -3791,13 +3791,13 @@
     "score": 23.1385
    },
    {
-    "id": "07896500081839",
-    "name": "Sorvete napolitano ice happy 1,5 litro",
+    "id": "07891150055858",
+    "name": "Sorvete de napolitano cremosíssimo kibon 1,5 litro",
     "score": 18.8078
    },
    {
-    "id": "07891150055858",
-    "name": "Sorvete de napolitano cremosíssimo kibon 1,5 litro",
+    "id": "07896500081839",
+    "name": "Sorvete napolitano ice happy 1,5 litro",
     "score": 18.8078
    },
    {
@@ -3865,8 +3865,8 @@
     "score": 25.3443
    },
    {
-    "id": "07891025123132",
-    "name": "Manteiga extra sem sal danone 200g",
+    "id": "03228022910023",
+    "name": "Manteiga sem sal gastronomique président 200g",
     "score": 23.1759
    }
   ]
@@ -3897,8 +3897,8 @@
     "score": 22.4369
    },
    {
-    "id": "03228020355741",
-    "name": "Manteiga extra com sal président 200g",
+    "id": "07891025123149",
+    "name": "Manteiga extra com sal danone 200g",
     "score": 21.3705
    }
   ]
@@ -3978,23 +3978,23 @@
     "score": 41.7393
    },
    {
-    "id": "08002235750851",
-    "name": "Zonin amarone italiano vinho tinto 750ml",
-    "score": 23.0503
-   },
-   {
     "id": "08002235020862",
     "name": "Zonin italiano chianti vinho tinto 750ml",
     "score": 23.0503
    },
    {
-    "id": "08002235572552",
-    "name": "Zonin classico bardolino italiano vinho tinto 750ml",
-    "score": 21.5253
+    "id": "08002235750851",
+    "name": "Zonin amarone italiano vinho tinto 750ml",
+    "score": 23.0503
    },
    {
     "id": "08002235031905",
     "name": "Zonin velluto veneto italiano vinho tinto 750ml",
+    "score": 21.5253
+   },
+   {
+    "id": "08002235572552",
+    "name": "Zonin classico bardolino italiano vinho tinto 750ml",
     "score": 21.5253
    }
   ]
@@ -4020,13 +4020,13 @@
     "score": 26.8217
    },
    {
-    "id": "07894904215942",
-    "name": "Hambúrguer cheddar e bacon hot hit congelado seara 145g",
+    "id": "07894904678341",
+    "name": "Hambúrguer x-bacon hot hit congelado seara 145g",
     "score": 16.7659
    },
    {
-    "id": "07894904678341",
-    "name": "Hambúrguer x-bacon hot hit congelado seara 145g",
+    "id": "07894904215942",
+    "name": "Hambúrguer cheddar e bacon hot hit congelado seara 145g",
     "score": 16.7659
    }
   ]
@@ -4079,13 +4079,13 @@
     "score": 33.7723
    },
    {
-    "id": "07500435209311",
-    "name": "Condicionador pantene equilíbrio raiz e pontas 250ml",
+    "id": "07500435209755",
+    "name": "Condicionador pantene equilíbrio raiz e pontas 510ml",
     "score": 29.4084
    },
    {
-    "id": "07500435209755",
-    "name": "Condicionador pantene equilíbrio raiz e pontas 510ml",
+    "id": "07500435209311",
+    "name": "Condicionador pantene equilíbrio raiz e pontas 250ml",
     "score": 29.4084
    },
    {
@@ -4116,13 +4116,13 @@
     "score": 21.4462
    },
    {
-    "id": "07891097012686",
-    "name": "Manteiga extra com sal batavo 200g",
+    "id": "07891025123149",
+    "name": "Manteiga extra com sal danone 200g",
     "score": 20.5771
    },
    {
-    "id": "00000077306456",
-    "name": "Manteiga extra com sal conaprole 200g",
+    "id": "07896079530233",
+    "name": "Manteiga extra com sal elegê 200g",
     "score": 20.5771
    }
   ]
@@ -4143,13 +4143,13 @@
     "score": 20.4454
    },
    {
-    "id": "00076840002603",
-    "name": "Sorvete doce deleite core ben & jerry's 458ml",
+    "id": "00076840376308",
+    "name": "Sorvete de chocolate fudge brownie ben & jerry's 458ml",
     "score": 19.1767
    },
    {
-    "id": "00076840376308",
-    "name": "Sorvete de chocolate fudge brownie ben & jerry's 458ml",
+    "id": "00076840002603",
+    "name": "Sorvete doce deleite core ben & jerry's 458ml",
     "score": 19.1767
    },
    {
@@ -4175,13 +4175,13 @@
     "score": 16.2976
    },
    {
-    "id": "07891143013292",
-    "name": "Queijo tipo camembert polenghi 125g",
+    "id": "07896183201388",
+    "name": "Queijo tipo brie quatá 125g",
     "score": 15.6289
    },
    {
-    "id": "07896183201388",
-    "name": "Queijo tipo brie quatá 125g",
+    "id": "07891143013292",
+    "name": "Queijo tipo camembert polenghi 125g",
     "score": 15.6289
    },
    {
@@ -4244,13 +4244,13 @@
     "score": 26.9284
    },
    {
-    "id": "07891143012592",
-    "name": "Cream cheese light polenghi 150g",
+    "id": "07891097102370",
+    "name": "Cream cheese light président 150g",
     "score": 23.2774
    },
    {
-    "id": "07891097102370",
-    "name": "Cream cheese light président 150g",
+    "id": "07891143012592",
+    "name": "Cream cheese light polenghi 150g",
     "score": 23.2774
    }
   ]
@@ -4308,13 +4308,13 @@
     "score": 31.2402
    },
    {
-    "id": "07896029046197",
-    "name": "Ração úmida para gatos whiskas cordeiro ao molho 1+ anos sachê 85g",
+    "id": "07896029046623",
+    "name": "Ração úmida para gatos whiskas adultos castrados carne ao molho sachê 85g",
     "score": 27.9924
    },
    {
-    "id": "07896029046555",
-    "name": "Ração úmida para gatos whiskas adultos castrados peixe ao molho sachê 85g",
+    "id": "07896029046197",
+    "name": "Ração úmida para gatos whiskas cordeiro ao molho 1+ anos sachê 85g",
     "score": 27.9924
    }
   ]
@@ -4325,23 +4325,23 @@
   "gold_name": "Espumante brut branco arte tradicional casa valduga 750ml",
   "top5": [
    {
-    "id": "07898276971703",
-    "name": "Espumante brut rosé arte tradicional casa valduga 750ml",
-    "score": 33.8885
-   },
-   {
     "id": "07898276971000",
     "name": "Espumante brut branco arte tradicional casa valduga 750ml",
     "score": 33.8885
    },
    {
-    "id": "07898276972441",
-    "name": "Espumante brut rosé 130 casa valduga 750ml",
-    "score": 23.784
+    "id": "07898276971703",
+    "name": "Espumante brut rosé arte tradicional casa valduga 750ml",
+    "score": 33.8885
    },
    {
     "id": "07898276970072",
     "name": "Espumante brut branco 130 casa valduga 750ml",
+    "score": 23.784
+   },
+   {
+    "id": "07898276972441",
+    "name": "Espumante brut rosé 130 casa valduga 750ml",
     "score": 23.784
    },
    {
@@ -4404,13 +4404,13 @@
     "score": 22.4357
    },
    {
-    "id": "07891150091115",
-    "name": "Condicionador tresemmé brilho lamelar 400ml",
+    "id": "07891150091214",
+    "name": "Shampoo tresemmé brilho lamelar 400ml",
     "score": 22.072
    },
    {
-    "id": "07891150091221",
-    "name": "Condicionador tresemmé brilho lamelar 650ml",
+    "id": "07891150091115",
+    "name": "Condicionador tresemmé brilho lamelar 400ml",
     "score": 22.072
    }
   ]
@@ -4436,13 +4436,13 @@
     "score": 23.6739
    },
    {
-    "id": "07896504306495",
-    "name": "Requeijão cremoso zero lactose santa clara 180g",
+    "id": "07898908207057",
+    "name": "Requeijão cremoso zero lactose gran mestri 180g",
     "score": 21.9663
    },
    {
-    "id": "07898908207057",
-    "name": "Requeijão cremoso zero lactose gran mestri 180g",
+    "id": "07896504306495",
+    "name": "Requeijão cremoso zero lactose santa clara 180g",
     "score": 21.9663
    }
   ]
@@ -4463,13 +4463,13 @@
     "score": 38.3725
    },
    {
-    "id": "07898557010084",
-    "name": "Chips de batata-doce sweet potato roots to go 45g",
+    "id": "07898557010626",
+    "name": "Chips de batata-doce azeite e manjericão roots to go 45g",
     "score": 36.1305
    },
    {
-    "id": "07898557010626",
-    "name": "Chips de batata-doce azeite e manjericão roots to go 45g",
+    "id": "07898557010084",
+    "name": "Chips de batata-doce sweet potato roots to go 45g",
     "score": 36.1305
    },
    {
@@ -4495,13 +4495,13 @@
     "score": 32.5757
    },
    {
-    "id": "07500435197007",
-    "name": "Condicionador pantene colágeno hidrata & resgata 250ml",
+    "id": "07500435151504",
+    "name": "Condicionador pantene colágeno hidrata & resgata 510ml",
     "score": 28.2118
    },
    {
-    "id": "07500435151504",
-    "name": "Condicionador pantene colágeno hidrata & resgata 510ml",
+    "id": "07500435197007",
+    "name": "Condicionador pantene colágeno hidrata & resgata 250ml",
     "score": 28.2118
    },
    {
@@ -4522,11 +4522,6 @@
     "score": 46.7557
    },
    {
-    "id": "07898557010084",
-    "name": "Chips de batata-doce sweet potato roots to go 45g",
-    "score": 36.1305
-   },
-   {
     "id": "07898557010640",
     "name": "Chips de batata-doce mostarda dijon roots to go 45g",
     "score": 36.1305
@@ -4534,6 +4529,11 @@
    {
     "id": "07898557010626",
     "name": "Chips de batata-doce azeite e manjericão roots to go 45g",
+    "score": 36.1305
+   },
+   {
+    "id": "07898557010084",
+    "name": "Chips de batata-doce sweet potato roots to go 45g",
     "score": 36.1305
    },
    {
@@ -4569,8 +4569,8 @@
     "score": 32.2383
    },
    {
-    "id": "07896045101641",
-    "name": "Café torrado e moído gourmet mogiana paulista 3 corações 250g",
+    "id": "07896045101665",
+    "name": "Café torrado e moído gourmet sul de minas 3 corações 250g",
     "score": 28.3664
    }
   ]
@@ -4586,13 +4586,13 @@
     "score": 28.7912
    },
    {
-    "id": "07896024761637",
-    "name": "Biscoito com leite maltado black piraquê 132g",
+    "id": "07896024761439",
+    "name": "Biscoito com leite maltado tradicional piraquê 132g",
     "score": 11.9293
    },
    {
-    "id": "07896024761439",
-    "name": "Biscoito com leite maltado tradicional piraquê 132g",
+    "id": "07896024761637",
+    "name": "Biscoito com leite maltado black piraquê 132g",
     "score": 11.9293
    },
    {
@@ -4601,8 +4601,8 @@
     "score": 9.8393
    },
    {
-    "id": "07622210592750",
-    "name": "Biscoito recheado chocolate trakinas 126g",
+    "id": "07622300830090",
+    "name": "Biscoito recheado de baunilha oreo 144g",
     "score": 9.8393
    }
   ]
@@ -4628,8 +4628,8 @@
     "score": 24.8857
    },
    {
-    "id": "07896044955061",
-    "name": "Condicionador phytoervas super-restauração 250ml",
+    "id": "07896044955092",
+    "name": "Condicionador phytoervas revitalização e brilho 250ml",
     "score": 16.9717
    },
    {
@@ -4650,13 +4650,13 @@
     "score": 39.8052
    },
    {
-    "id": "07896045101658",
-    "name": "Café torrado e moído gourmet cerrado mineiro 3 corações 250g",
+    "id": "07896045101665",
+    "name": "Café torrado e moído gourmet sul de minas 3 corações 250g",
     "score": 28.3664
    },
    {
-    "id": "07896045101665",
-    "name": "Café torrado e moído gourmet sul de minas 3 corações 250g",
+    "id": "07896045101658",
+    "name": "Café torrado e moído gourmet cerrado mineiro 3 corações 250g",
     "score": 28.3664
    },
    {
@@ -4682,13 +4682,13 @@
     "score": 32.2913
    },
    {
-    "id": "07891150050242",
-    "name": "Sorvete de flocos cremosíssimo kibon 1,5 litro",
+    "id": "07891150055858",
+    "name": "Sorvete de napolitano cremosíssimo kibon 1,5 litro",
     "score": 27.9827
    },
    {
-    "id": "07891150055858",
-    "name": "Sorvete de napolitano cremosíssimo kibon 1,5 litro",
+    "id": "07891150050242",
+    "name": "Sorvete de flocos cremosíssimo kibon 1,5 litro",
     "score": 27.9827
    },
    {
@@ -4729,8 +4729,8 @@
     "score": 28.5813
    },
    {
-    "id": "07898557010084",
-    "name": "Chips de batata-doce sweet potato roots to go 45g",
+    "id": "07898557010626",
+    "name": "Chips de batata-doce azeite e manjericão roots to go 45g",
     "score": 28.5813
    }
   ]
@@ -4825,8 +4825,8 @@
     "score": 11.7778
    },
    {
-    "id": "07896002364768",
-    "name": "Snack crocantíssimo queijo e cebola 40g",
+    "id": "07896002301398",
+    "name": "Snack crocantíssimo salaminho com limão 40g",
     "score": 11.714
    }
   ]
@@ -4852,13 +4852,13 @@
     "score": 17.9579
    },
    {
-    "id": "07894904009862",
-    "name": "Linguiça tipo calabresa defumada seara 400g",
+    "id": "07908433000440",
+    "name": "Linguiça calabresa defumada dona marta 400g",
     "score": 15.502
    },
    {
-    "id": "07891515620981",
-    "name": "Linguiça tipo calabresa defumada sadia 400g",
+    "id": "07894904009862",
+    "name": "Linguiça tipo calabresa defumada seara 400g",
     "score": 15.502
    }
   ]
@@ -4906,13 +4906,13 @@
     "score": 36.7247
    },
    {
-    "id": "07891150072800",
-    "name": "Lava-roupas líquido omo bebê 900ml",
+    "id": "07891150063815",
+    "name": "Lava-roupas líquido omo coco 900ml",
     "score": 20.3218
    },
    {
-    "id": "07891150063815",
-    "name": "Lava-roupas líquido omo coco 900ml",
+    "id": "07891150072800",
+    "name": "Lava-roupas líquido omo bebê 900ml",
     "score": 20.3218
    },
    {
@@ -4953,8 +4953,8 @@
     "score": 16.4007
    },
    {
-    "id": "07891097000133",
-    "name": "Iogurte tradicional grego batavo 450g",
+    "id": "07891097000126",
+    "name": "Iogurte de abacaxi pedaços batavo 450g",
     "score": 15.6957
    }
   ]
@@ -4980,13 +4980,13 @@
     "score": 26.5745
    },
    {
-    "id": "07896105800705",
-    "name": "Batata rústica pré-frita ao forno congelada mccain 600g",
+    "id": "07797906000380",
+    "name": "Batata palito pré-frita tradicional congelada mccain 720g",
     "score": 25.4988
    },
    {
-    "id": "07797906000380",
-    "name": "Batata palito pré-frita tradicional congelada mccain 720g",
+    "id": "07896105800705",
+    "name": "Batata rústica pré-frita ao forno congelada mccain 600g",
     "score": 25.4988
    }
   ]
@@ -5017,8 +5017,8 @@
     "score": 21.004
    },
    {
-    "id": "07893000079298",
-    "name": "Margarina cremosa com sal qualy 1kg",
+    "id": "07893000394117",
+    "name": "Margarina cremosa com sal qualy 250g",
     "score": 20.6554
    }
   ]
@@ -5034,11 +5034,6 @@
     "score": 28.9347
    },
    {
-    "id": "07509546657738",
-    "name": "Creme dental colgate total 12 anti-tártaro 180g",
-    "score": 27.1392
-   },
-   {
     "id": "07509546668062",
     "name": "Creme dental colgate total 12 gengiva reforçada 180g",
     "score": 27.1392
@@ -5046,6 +5041,11 @@
    {
     "id": "07509546686028",
     "name": "Creme dental colgate total 12 carvão ativado 180g",
+    "score": 27.1392
+   },
+   {
+    "id": "07509546657738",
+    "name": "Creme dental colgate total 12 anti-tártaro 180g",
     "score": 27.1392
    },
    {
@@ -5076,13 +5076,13 @@
     "score": 28.2548
    },
    {
-    "id": "07896002364768",
-    "name": "Snack crocantíssimo queijo e cebola 40g",
+    "id": "07896002301398",
+    "name": "Snack crocantíssimo salaminho com limão 40g",
     "score": 11.714
    },
    {
-    "id": "07896002301398",
-    "name": "Snack crocantíssimo salaminho com limão 40g",
+    "id": "07896002364768",
+    "name": "Snack crocantíssimo queijo e cebola 40g",
     "score": 11.714
    }
   ]
@@ -5098,23 +5098,23 @@
     "score": 35.364
    },
    {
-    "id": "07896500081129",
-    "name": "Açaí com guaraná sorvelândia 1,02kg",
-    "score": 14.7992
-   },
-   {
     "id": "07896500081242",
     "name": "Açaí com guaraná sorvelândia 2 litros",
     "score": 14.7992
    },
    {
-    "id": "07896594971962",
-    "name": "Açaí com guaraná frooty 700ml",
+    "id": "07896500081082",
+    "name": "Açaí com guaraná sorvelândia 200g",
     "score": 14.7992
    },
    {
-    "id": "07896500081082",
-    "name": "Açaí com guaraná sorvelândia 200g",
+    "id": "07896594972310",
+    "name": "Açaí com guaraná frooty 1,5 litro",
+    "score": 14.7992
+   },
+   {
+    "id": "07896500081150",
+    "name": "Açaí com guaraná sorvelândia 3,6kg",
     "score": 14.7992
    }
   ]
@@ -5177,8 +5177,8 @@
     "score": 23.8386
    },
    {
-    "id": "07622300992330",
-    "name": "Biscoito integral tradicional club social 288g",
+    "id": "07622210641632",
+    "name": "Biscoito sabor presunto club social 141g",
     "score": 17.5686
    }
   ]
@@ -5204,13 +5204,13 @@
     "score": 19.8577
    },
    {
-    "id": "07896207613142",
-    "name": "Queijo frescal ultrafiltrado frescatino polenghi 130g",
+    "id": "07891143015425",
+    "name": "Queijo frescal ultrafiltrado light polenghi 400g",
     "score": 18.6301
    },
    {
-    "id": "07891143015425",
-    "name": "Queijo frescal ultrafiltrado light polenghi 400g",
+    "id": "07896207613142",
+    "name": "Queijo frescal ultrafiltrado frescatino polenghi 130g",
     "score": 18.6301
    }
   ]
@@ -5236,13 +5236,13 @@
     "score": 29.3018
    },
    {
-    "id": "07622210571724",
-    "name": "Refresco em pó morango tang 18g",
+    "id": "07622210571755",
+    "name": "Refresco em pó abacaxi tang 18g",
     "score": 26.1123
    },
    {
-    "id": "07622210571786",
-    "name": "Refresco em pó uva tang 18g",
+    "id": "07622210571496",
+    "name": "Refresco em pó goiaba tang 18g",
     "score": 26.1123
    }
   ]
@@ -5295,8 +5295,8 @@
     "score": 30.0746
    },
    {
-    "id": "07896011102573",
-    "name": "Biscoito cream cracker parati 370g",
+    "id": "07896022086909",
+    "name": "Biscoito cream cracker isabela 350g",
     "score": 18.0591
    },
    {
@@ -5305,8 +5305,8 @@
     "score": 18.0591
    },
    {
-    "id": "07898045273458",
-    "name": "Biscoito cream cracker germani 345g",
+    "id": "07896011102573",
+    "name": "Biscoito cream cracker parati 370g",
     "score": 18.0591
    }
   ]
@@ -5327,13 +5327,13 @@
     "score": 19.7183
    },
    {
-    "id": "07896183201388",
-    "name": "Queijo tipo brie quatá 125g",
+    "id": "03228020191349",
+    "name": "Queijo petit brie président 125g",
     "score": 18.2149
    },
    {
-    "id": "03228020191349",
-    "name": "Queijo petit brie président 125g",
+    "id": "07896183201388",
+    "name": "Queijo tipo brie quatá 125g",
     "score": 18.2149
    },
    {
@@ -5386,6 +5386,11 @@
     "score": 25.8383
    },
    {
+    "id": "07896079588548",
+    "name": "Requeijão cremoso tradicional elegê 200g",
+    "score": 20.0042
+   },
+   {
     "id": "07896030518027",
     "name": "Requeijão cremoso tradicional tirolez 200g",
     "score": 20.0042
@@ -5393,11 +5398,6 @@
    {
     "id": "07896353301184",
     "name": "Requeijão cremoso tradicional catupiry 200g",
-    "score": 20.0042
-   },
-   {
-    "id": "07896079588548",
-    "name": "Requeijão cremoso tradicional elegê 200g",
     "score": 20.0042
    },
    {
@@ -5433,8 +5433,8 @@
     "score": 23.8211
    },
    {
-    "id": "07891010255022",
-    "name": "Condicionador e máscara johnson's kids blackinho poderoso 380ml",
+    "id": "07891010257101",
+    "name": "Shampoo e condicionador johnson's kids 2 em 1 400ml",
     "score": 18.6084
    }
   ]
@@ -5460,13 +5460,13 @@
     "score": 11.6716
    },
    {
-    "id": "03228023980186",
-    "name": "Queijo processado président 140g",
+    "id": "07896034680102",
+    "name": "Queijo parmesão président 180g",
     "score": 11.6716
    },
    {
-    "id": "07896034680102",
-    "name": "Queijo parmesão président 180g",
+    "id": "03228023980186",
+    "name": "Queijo processado président 140g",
     "score": 11.6716
    }
   ]
@@ -5514,13 +5514,13 @@
     "score": 37.3177
    },
    {
-    "id": "07892840268046",
-    "name": "Snack panetini eqlibri tomate temperado 40g",
+    "id": "07892840267841",
+    "name": "Snack panetini eqlibri presunto defumado 40g",
     "score": 28.2548
    },
    {
-    "id": "07892840267841",
-    "name": "Snack panetini eqlibri presunto defumado 40g",
+    "id": "07892840268046",
+    "name": "Snack panetini eqlibri tomate temperado 40g",
     "score": 28.2548
    },
    {
@@ -5610,13 +5610,8 @@
     "score": 37.2769
    },
    {
-    "id": "07899970400926",
-    "name": "Chocolate hershey's menta special dark 60% cacau 85g",
-    "score": 31.4507
-   },
-   {
-    "id": "07899970400407",
-    "name": "Chocolate hershey's aerado special dark 60% cacau 85g",
+    "id": "07899970400902",
+    "name": "Chocolate hershey's tradicional special dark 60% cacau 85g",
     "score": 31.4507
    },
    {
@@ -5625,8 +5620,13 @@
     "score": 31.4507
    },
    {
-    "id": "07899970400902",
-    "name": "Chocolate hershey's tradicional special dark 60% cacau 85g",
+    "id": "07899970400940",
+    "name": "Chocolate hershey's laranja special dark 60% cacau 85g",
+    "score": 31.4507
+   },
+   {
+    "id": "07899970400407",
+    "name": "Chocolate hershey's aerado special dark 60% cacau 85g",
     "score": 31.4507
    }
   ]
@@ -5652,13 +5652,13 @@
     "score": 19.1593
    },
    {
-    "id": "07610061100019",
-    "name": "Fondue de queijo emmi 400g",
+    "id": "07896207613296",
+    "name": "Fondue de queijo polenghi 400g",
     "score": 16.9354
    },
    {
-    "id": "07896030518249",
-    "name": "Fondue de queijo tirolez 400g",
+    "id": "07896353300927",
+    "name": "Fondue de queijo catupiry 400g",
     "score": 16.9354
    }
   ]
@@ -5669,13 +5669,13 @@
   "gold_name": "Cerveja corona cero sunbrew long neck 330ml",
   "top5": [
    {
-    "id": "07891991305679",
-    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
+    "id": "07891991304184",
+    "name": "Cerveja corona cero sunbrew long neck 330ml",
     "score": 39.6974
    },
    {
-    "id": "07891991304184",
-    "name": "Cerveja corona cero sunbrew long neck 330ml",
+    "id": "07891991305679",
+    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
     "score": 39.6974
    },
    {
@@ -5748,13 +5748,13 @@
     "score": 28.6674
    },
    {
-    "id": "07894900701517",
-    "name": "Refrigerante coca-cola sem açúcar 2 litros",
+    "id": "07894900701609",
+    "name": "Refrigerante coca-cola sem açúcar 600ml",
     "score": 26.3297
    },
    {
-    "id": "00000078933873",
-    "name": "Refrigerante coca-cola sem açúcar 200ml",
+    "id": "07894900701753",
+    "name": "Refrigerante coca-cola sem açúcar 1,5 litro",
     "score": 26.3297
    }
   ]
@@ -5844,13 +5844,13 @@
     "score": 27.41
    },
    {
-    "id": "07908785461500",
-    "name": "Creme para pentear elseve l'oréal liso dos sonhos 250ml",
+    "id": "07908615059983",
+    "name": "Creme para pentear elseve l'oréal glycolic gloss 250ml",
     "score": 27.353
    },
    {
-    "id": "07899706187466",
-    "name": "Creme para pentear elseve l'oréal hidra hialurônico 250ml",
+    "id": "07908785461500",
+    "name": "Creme para pentear elseve l'oréal liso dos sonhos 250ml",
     "score": 27.353
    }
   ]
@@ -5871,8 +5871,8 @@
     "score": 25.98
    },
    {
-    "id": "07891097001031",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
+    "id": "27891097001035",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
     "score": 25.1152
    },
    {
@@ -5881,8 +5881,8 @@
     "score": 25.1152
    },
    {
-    "id": "27891097001035",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
+    "id": "07891097001031",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
     "score": 25.1152
    }
   ]
@@ -5913,8 +5913,8 @@
     "score": 16.0708
    },
    {
-    "id": "04005900633309",
-    "name": "Desodorante aerossol antitranspirante nivea men active dry impact 200ml embalagem econômica",
+    "id": "04005900705143",
+    "name": "Desodorante aerossol antitranspirante nivea protect & care 0% álcool 200ml embalagem econômica",
     "score": 15.2301
    }
   ]
@@ -5962,13 +5962,13 @@
     "score": 33.9732
    },
    {
-    "id": "07896005800577",
-    "name": "Café torrado e moído descafeinado 3 corações 250g",
+    "id": "07896005800362",
+    "name": "Café torrado e moído tradicional 3 corações 250g",
     "score": 27.3151
    },
    {
-    "id": "07896005800362",
-    "name": "Café torrado e moído tradicional 3 corações 250g",
+    "id": "07896005800577",
+    "name": "Café torrado e moído descafeinado 3 corações 250g",
     "score": 27.3151
    },
    {
@@ -5977,8 +5977,8 @@
     "score": 25.6201
    },
    {
-    "id": "07896005809679",
-    "name": "Café torrado e moído florada premiada 3 corações 250g",
+    "id": "07896005806692",
+    "name": "Café torrado e moído rituais orgânico 3 corações 250g",
     "score": 25.6201
    }
   ]
@@ -6026,23 +6026,23 @@
     "score": 32.4569
    },
    {
-    "id": "07622210571601",
-    "name": "Refresco em pó laranja tang 18g",
+    "id": "07622210571755",
+    "name": "Refresco em pó abacaxi tang 18g",
     "score": 26.1123
    },
    {
-    "id": "07622210571816",
-    "name": "Refresco em pó guaraná tang 18g",
+    "id": "07622210571496",
+    "name": "Refresco em pó goiaba tang 18g",
+    "score": 26.1123
+   },
+   {
+    "id": "07622210571526",
+    "name": "Refresco em pó manga tang 18g",
     "score": 26.1123
    },
    {
     "id": "07622210571540",
     "name": "Refresco em pó limão tang 18g",
-    "score": 26.1123
-   },
-   {
-    "id": "07622210571632",
-    "name": "Refresco em pó tangerina tang 18g",
     "score": 26.1123
    }
   ]
@@ -6058,18 +6058,18 @@
     "score": 30.2099
    },
    {
-    "id": "07896228101093",
-    "name": "Massa spaghetti massa leve 500g",
-    "score": 23.4367
-   },
-   {
     "id": "07896228100607",
     "name": "Massa tagliatelle massa leve 500g",
     "score": 23.4367
    },
    {
-    "id": "07896022200121",
-    "name": "Massa para lasanha renata 500g",
+    "id": "07896228101093",
+    "name": "Massa spaghetti massa leve 500g",
+    "score": 23.4367
+   },
+   {
+    "id": "07896249500066",
+    "name": "Massa para lasanha romena 500g",
     "score": 21.139
    },
    {
@@ -6095,13 +6095,13 @@
     "score": 19.1848
    },
    {
-    "id": "02073750000000",
-    "name": "Queijo minas frescal santa clara",
+    "id": "02089210000008",
+    "name": "Queijo minas frescal light quatá",
     "score": 17.722
    },
    {
-    "id": "02089210000008",
-    "name": "Queijo minas frescal light quatá",
+    "id": "02073750000000",
+    "name": "Queijo minas frescal santa clara",
     "score": 17.722
    },
    {
@@ -6132,13 +6132,13 @@
     "score": 28.372
    },
    {
-    "id": "07896625210756",
-    "name": "Iogurte de ameixa viv vigor 150g",
+    "id": "07896625210763",
+    "name": "Iogurte natural viv vigor 150g",
     "score": 18.5831
    },
    {
-    "id": "07896625210718",
-    "name": "Iogurte coalhada viv vigor 150g",
+    "id": "07896625210756",
+    "name": "Iogurte de ameixa viv vigor 150g",
     "score": 18.5831
    }
   ]
@@ -6164,13 +6164,13 @@
     "score": 24.2408
    },
    {
-    "id": "07898629571727",
-    "name": "Bala de gelatina dentinhos haribo 80g",
+    "id": "07898629571819",
+    "name": "Bala de gelatina letrinhas haribo 80g",
     "score": 24.2408
    },
    {
-    "id": "07898629571819",
-    "name": "Bala de gelatina letrinhas haribo 80g",
+    "id": "07898629571246",
+    "name": "Bala de gelatina barbie haribo 80g",
     "score": 24.2408
    }
   ]
@@ -6196,13 +6196,13 @@
     "score": 17.3226
    },
    {
-    "id": "07791969016036",
-    "name": "Desodorante aerossol antitranspirante nivea active dry comfort 150ml",
+    "id": "04006000178882",
+    "name": "Desodorante aerossol antitranspirante nivea derma control uniformiza 150ml",
     "score": 17.3226
    },
    {
-    "id": "04006000178882",
-    "name": "Desodorante aerossol antitranspirante nivea derma control uniformiza 150ml",
+    "id": "07791969016036",
+    "name": "Desodorante aerossol antitranspirante nivea active dry comfort 150ml",
     "score": 17.3226
    }
   ]
@@ -6287,13 +6287,13 @@
     "score": 31.4507
    },
    {
-    "id": "07899970400940",
-    "name": "Chocolate hershey's laranja special dark 60% cacau 85g",
+    "id": "07899970400964",
+    "name": "Chocolate hershey's cranberry special dark 60% cacau 85g",
     "score": 31.4507
    },
    {
-    "id": "07899970400964",
-    "name": "Chocolate hershey's cranberry special dark 60% cacau 85g",
+    "id": "07899970400940",
+    "name": "Chocolate hershey's laranja special dark 60% cacau 85g",
     "score": 31.4507
    },
    {
@@ -6346,8 +6346,8 @@
     "score": 35.4414
    },
    {
-    "id": "07622210696441",
-    "name": "Refresco em pó morango zero açúcar clight 8g",
+    "id": "07622210696328",
+    "name": "Refresco em pó limonada zero açúcar clight 8g",
     "score": 30.7354
    },
    {
@@ -6356,13 +6356,13 @@
     "score": 30.7354
    },
    {
-    "id": "07622210696328",
-    "name": "Refresco em pó limonada zero açúcar clight 8g",
+    "id": "07622210696373",
+    "name": "Refresco em pó abacaxi zero açúcar clight 8g",
     "score": 30.7354
    },
    {
-    "id": "07622210696373",
-    "name": "Refresco em pó abacaxi zero açúcar clight 8g",
+    "id": "07622210696441",
+    "name": "Refresco em pó morango zero açúcar clight 8g",
     "score": 30.7354
    }
   ]
@@ -6393,8 +6393,8 @@
     "score": 21.8024
    },
    {
-    "id": "07893333325109",
-    "name": "Cream cheese light philadelphia 150g",
+    "id": "07891097102370",
+    "name": "Cream cheese light président 150g",
     "score": 18.5652
    }
   ]
@@ -6420,13 +6420,13 @@
     "score": 19.2968
    },
    {
-    "id": "07894321220529",
-    "name": "Achocolatado em pó toddy original sachê 700g",
+    "id": "07892840819798",
+    "name": "Achocolatado em pó toddy original sachê 480g",
     "score": 17.9297
    },
    {
-    "id": "07892840819798",
-    "name": "Achocolatado em pó toddy original sachê 480g",
+    "id": "07894321220529",
+    "name": "Achocolatado em pó toddy original sachê 700g",
     "score": 17.9297
    }
   ]
@@ -6548,13 +6548,13 @@
     "score": 17.8153
    },
    {
-    "id": "07891910000197",
-    "name": "Açúcar refinado união 1kg",
+    "id": "07891959014612",
+    "name": "Açúcar cristal união 1kg",
     "score": 17.7443
    },
    {
-    "id": "07891959014612",
-    "name": "Açúcar cristal união 1kg",
+    "id": "07891910000197",
+    "name": "Açúcar refinado união 1kg",
     "score": 17.7443
    }
   ]
@@ -6585,8 +6585,8 @@
     "score": 11.6716
    },
    {
-    "id": "03228023980186",
-    "name": "Queijo processado président 140g",
+    "id": "07896034680102",
+    "name": "Queijo parmesão président 180g",
     "score": 11.6716
    }
   ]
@@ -6612,13 +6612,13 @@
     "score": 27.1266
    },
    {
-    "id": "07896066301488",
-    "name": "Pão de forma brioche do forno wickbold 450g",
+    "id": "07896066301778",
+    "name": "Pão de forma integral premium wickbold 450g",
     "score": 20.8689
    },
    {
-    "id": "07896066301778",
-    "name": "Pão de forma integral premium wickbold 450g",
+    "id": "07896066301488",
+    "name": "Pão de forma brioche do forno wickbold 450g",
     "score": 20.8689
    }
   ]
@@ -6644,13 +6644,13 @@
     "score": 31.9166
    },
    {
-    "id": "07899026459908",
-    "name": "Condicionador elseve l'oréal reparação total 5 para cabelos danificados 400ml",
+    "id": "07908615053097",
+    "name": "Leave-in multireparador elseve l'oréal reparação total 5 100ml",
     "score": 27.3168
    },
    {
-    "id": "07908615053097",
-    "name": "Leave-in multireparador elseve l'oréal reparação total 5 100ml",
+    "id": "07899026420564",
+    "name": "Shampoo elseve l'oréal reparação total 5 para cabelos danificados 400ml",
     "score": 27.3168
    }
   ]
@@ -6666,8 +6666,8 @@
     "score": 32.6707
    },
    {
-    "id": "07896002303460",
-    "name": "Pão de forma integral artesano pullman 500g",
+    "id": "07896002311335",
+    "name": "Pão de forma australiano artesano pullman 500g",
     "score": 28.0896
    },
    {
@@ -6676,8 +6676,8 @@
     "score": 28.0896
    },
    {
-    "id": "07896002311335",
-    "name": "Pão de forma australiano artesano pullman 500g",
+    "id": "07896002303460",
+    "name": "Pão de forma integral artesano pullman 500g",
     "score": 28.0896
    },
    {
@@ -6730,13 +6730,13 @@
     "score": 30.9117
    },
    {
-    "id": "07898024394181",
-    "name": "Creme de avelã com cacau nutella ferrero 350g",
+    "id": "07898024396529",
+    "name": "Creme de avelã com cacau nutella ferrero 650g",
     "score": 22.9804
    },
    {
-    "id": "07898024396529",
-    "name": "Creme de avelã com cacau nutella ferrero 650g",
+    "id": "07898024394181",
+    "name": "Creme de avelã com cacau nutella ferrero 350g",
     "score": 22.9804
    },
    {
@@ -6762,23 +6762,23 @@
     "score": 26.4057
    },
    {
-    "id": "07891000120507",
-    "name": "Sorvete de creme tradicional nestlé 1,5 litro",
-    "score": 19.9682
-   },
-   {
     "id": "07891000120071",
     "name": "Sorvete napolitano tradicional nestlé 1,5 litro",
     "score": 19.9682
    },
    {
-    "id": "07891150050242",
-    "name": "Sorvete de flocos cremosíssimo kibon 1,5 litro",
-    "score": 17.5718
+    "id": "07891000120507",
+    "name": "Sorvete de creme tradicional nestlé 1,5 litro",
+    "score": 19.9682
    },
    {
     "id": "07896500010129",
     "name": "Sorvete flocos ice happy 1,5 litro",
+    "score": 17.5718
+   },
+   {
+    "id": "07891150050242",
+    "name": "Sorvete de flocos cremosíssimo kibon 1,5 litro",
     "score": 17.5718
    }
   ]
@@ -6809,8 +6809,8 @@
     "score": 9.571
    },
    {
-    "id": "07896024760302",
-    "name": "Biscoito água e gergelim piraquê 240g",
+    "id": "07896200041416",
+    "name": "Biscoito água e sal zezé 400g",
     "score": 9.1969
    }
   ]
@@ -6841,8 +6841,8 @@
     "score": 28.0896
    },
    {
-    "id": "07896002366304",
-    "name": "Pão de forma integral 12 grãos fit pullman 350g",
+    "id": "07896002366267",
+    "name": "Pão de forma 100% integral 12 grãos pullman 450g",
     "score": 18.2447
    }
   ]
@@ -6895,13 +6895,13 @@
     "score": 19.9889
    },
    {
-    "id": "07891095007943",
-    "name": "Pipoca para micro-ondas premium natural com sal yoki 50g",
+    "id": "07891095030200",
+    "name": "Pipoca para micro-ondas natural com sal light yoki 90g",
     "score": 18.3297
    },
    {
-    "id": "07891095030200",
-    "name": "Pipoca para micro-ondas natural com sal light yoki 90g",
+    "id": "07891095007943",
+    "name": "Pipoca para micro-ondas premium natural com sal yoki 50g",
     "score": 18.3297
    },
    {
@@ -6922,13 +6922,13 @@
     "score": 36.3474
    },
    {
-    "id": "07899970400407",
-    "name": "Chocolate hershey's aerado special dark 60% cacau 85g",
+    "id": "07899970400902",
+    "name": "Chocolate hershey's tradicional special dark 60% cacau 85g",
     "score": 31.4507
    },
    {
-    "id": "07899970400902",
-    "name": "Chocolate hershey's tradicional special dark 60% cacau 85g",
+    "id": "07899970400988",
+    "name": "Chocolate hershey's café special dark 60% cacau 85g",
     "score": 31.4507
    },
    {
@@ -6937,8 +6937,8 @@
     "score": 31.4507
    },
    {
-    "id": "07899970400988",
-    "name": "Chocolate hershey's café special dark 60% cacau 85g",
+    "id": "07899970400940",
+    "name": "Chocolate hershey's laranja special dark 60% cacau 85g",
     "score": 31.4507
    }
   ]
@@ -6954,13 +6954,13 @@
     "score": 29.2423
    },
    {
-    "id": "07896066301464",
-    "name": "Pão de forma integral australiano do forno wickbold 500g",
+    "id": "07896066301457",
+    "name": "Pão de forma do forno 100% nutrição wickbold 500g",
     "score": 23.0296
    },
    {
-    "id": "07896066301457",
-    "name": "Pão de forma do forno 100% nutrição wickbold 500g",
+    "id": "07896066301464",
+    "name": "Pão de forma integral australiano do forno wickbold 500g",
     "score": 23.0296
    },
    {
@@ -6996,13 +6996,13 @@
     "score": 13.5718
    },
    {
-    "id": "07896024761651",
-    "name": "Biscoito de maizena piraquê 175g",
+    "id": "07896022086787",
+    "name": "Biscoito de maizena isabela 350g",
     "score": 13.5718
    },
    {
-    "id": "07896022086787",
-    "name": "Biscoito de maizena isabela 350g",
+    "id": "07896024761651",
+    "name": "Biscoito de maizena piraquê 175g",
     "score": 13.5718
    }
   ]
@@ -7023,18 +7023,18 @@
     "score": 24.1658
    },
    {
-    "id": "07500435232920",
-    "name": "Fralda pampers premium care xxxg 52 unidades",
-    "score": 17.8967
-   },
-   {
-    "id": "07500435132435",
-    "name": "Fralda pampers premium care m 80 unidades",
-    "score": 17.8967
-   },
-   {
     "id": "07500435132459",
     "name": "Fralda pampers premium care xg 60 unidades",
+    "score": 17.8967
+   },
+   {
+    "id": "07500435132442",
+    "name": "Fralda pampers premium care g 68 unidades",
+    "score": 17.8967
+   },
+   {
+    "id": "07500435232920",
+    "name": "Fralda pampers premium care xxxg 52 unidades",
     "score": 17.8967
    }
   ]
@@ -7092,13 +7092,13 @@
     "score": 27.3151
    },
    {
-    "id": "07896005809679",
-    "name": "Café torrado e moído florada premiada 3 corações 250g",
+    "id": "07896005800553",
+    "name": "Café orgânico torrado e moído rituais 3 corações 250g",
     "score": 25.6201
    },
    {
-    "id": "07896005800553",
-    "name": "Café orgânico torrado e moído rituais 3 corações 250g",
+    "id": "07896005806692",
+    "name": "Café torrado e moído rituais orgânico 3 corações 250g",
     "score": 25.6201
    }
   ]
@@ -7129,8 +7129,8 @@
     "score": 17.1727
    },
    {
-    "id": "07896009498107",
-    "name": "Creme dental sensodyne proteção completa+ 90g",
+    "id": "07896015528294",
+    "name": "Creme dental sensodyne rápido alívio 50g",
     "score": 15.9561
    }
   ]
@@ -7183,13 +7183,13 @@
     "score": 25.5888
    },
    {
-    "id": "07896074607381",
-    "name": "Pão de queijo com calabresa congelado forno de minas 400g",
+    "id": "07896074601068",
+    "name": "Pão de queijo coquetel congelado forno de minas 400g",
     "score": 25.21
    },
    {
-    "id": "07896074601068",
-    "name": "Pão de queijo coquetel congelado forno de minas 400g",
+    "id": "07896074607381",
+    "name": "Pão de queijo com calabresa congelado forno de minas 400g",
     "score": 25.21
    },
    {
@@ -7242,13 +7242,13 @@
     "score": 30.859
    },
    {
-    "id": "07896423481853",
-    "name": "Chocolate snickers dark 42g",
+    "id": "07896423445985",
+    "name": "Chocolate snickers morango 42g",
     "score": 18.0769
    },
    {
-    "id": "07896423445985",
-    "name": "Chocolate snickers morango 42g",
+    "id": "07896423481853",
+    "name": "Chocolate snickers dark 42g",
     "score": 18.0769
    },
    {
@@ -7311,13 +7311,13 @@
     "score": 30.2192
    },
    {
-    "id": "07509546689937",
-    "name": "Condicionador palmolive luminous oils nutre e hidrata 350ml",
+    "id": "07509546689913",
+    "name": "Shampoo palmolive luminous oils fortalece e protege 350ml",
     "score": 20.2325
    },
    {
-    "id": "07509546689913",
-    "name": "Shampoo palmolive luminous oils fortalece e protege 350ml",
+    "id": "07509546689937",
+    "name": "Condicionador palmolive luminous oils nutre e hidrata 350ml",
     "score": 20.2325
    },
    {
@@ -7343,18 +7343,18 @@
     "score": 11.6912
    },
    {
-    "id": "07891095300648",
-    "name": "Tapioca granulada yoki 500g",
-    "score": 10.7262
-   },
-   {
-    "id": "07891095300631",
-    "name": "Polvilho doce yoki 500g",
-    "score": 10.7262
-   },
-   {
     "id": "07891095300617",
     "name": "Polvilho azedo yoki 500g",
+    "score": 10.7262
+   },
+   {
+    "id": "07891095100118",
+    "name": "Canjica amarela yoki 500g",
+    "score": 10.7262
+   },
+   {
+    "id": "07891095300648",
+    "name": "Tapioca granulada yoki 500g",
     "score": 10.7262
    }
   ]
@@ -7434,23 +7434,23 @@
     "score": 32.4477
    },
    {
-    "id": "07622300172893",
-    "name": "Gelatina de framboesa zero açúcar royal 12g",
-    "score": 26.5526
-   },
-   {
-    "id": "07622300172947",
-    "name": "Gelatina de uva zero açúcar royal 12g",
-    "score": 26.5526
-   },
-   {
     "id": "07622300172824",
     "name": "Gelatina de abacaxi zero açúcar royal 12g",
     "score": 26.5526
    },
    {
+    "id": "07622300172893",
+    "name": "Gelatina de framboesa zero açúcar royal 12g",
+    "score": 26.5526
+   },
+   {
     "id": "07622300172879",
     "name": "Gelatina de cereja zero açúcar royal 12g",
+    "score": 26.5526
+   },
+   {
+    "id": "07622300172947",
+    "name": "Gelatina de uva zero açúcar royal 12g",
     "score": 26.5526
    }
   ]
@@ -7508,13 +7508,13 @@
     "score": 29.5144
    },
    {
-    "id": "07893000079298",
-    "name": "Margarina cremosa com sal qualy 1kg",
+    "id": "07893000394117",
+    "name": "Margarina cremosa com sal qualy 250g",
     "score": 28.1923
    },
    {
-    "id": "07893000394117",
-    "name": "Margarina cremosa com sal qualy 250g",
+    "id": "07893000079298",
+    "name": "Margarina cremosa com sal qualy 1kg",
     "score": 28.1923
    }
   ]
@@ -7530,13 +7530,13 @@
     "score": 29.8011
    },
    {
-    "id": "07898206500010",
-    "name": "Açúcar cristal orgânico native 1kg",
+    "id": "07898206500027",
+    "name": "Açúcar demerara orgânico native 1kg",
     "score": 17.8485
    },
    {
-    "id": "07898206500027",
-    "name": "Açúcar demerara orgânico native 1kg",
+    "id": "07898206500010",
+    "name": "Açúcar cristal orgânico native 1kg",
     "score": 17.8485
    },
    {
@@ -7567,11 +7567,6 @@
     "score": 28.3119
    },
    {
-    "id": "08005110060007",
-    "name": "Tomate pelado mutti 400g",
-    "score": 19.8424
-   },
-   {
     "id": "07896333026977",
     "name": "Tomate pelado mercatto 400g",
     "score": 19.8424
@@ -7579,6 +7574,11 @@
    {
     "id": "07896333000960",
     "name": "Tomate pelado capellini 400g",
+    "score": 19.8424
+   },
+   {
+    "id": "08005110060007",
+    "name": "Tomate pelado mutti 400g",
     "score": 19.8424
    }
   ]
@@ -7737,8 +7737,8 @@
     "score": 17.2223
    },
    {
-    "id": "07893000719279",
-    "name": "Salsicha de frango sadia 500g",
+    "id": "07891515625931",
+    "name": "Salsicha defumada perdigão 500g",
     "score": 11.5354
    }
   ]
@@ -7791,18 +7791,18 @@
     "score": 27.9204
    },
    {
-    "id": "07891150091207",
-    "name": "Shampoo tresemmé brilho lamelar 650ml",
+    "id": "07891150091122",
+    "name": "Shampoo tresemmé reconstrução & força 650ml",
+    "score": 18.7594
+   },
+   {
+    "id": "07891150100312",
+    "name": "Shampoo tresemmé blindagem antiumidade 650ml",
     "score": 18.7594
    },
    {
     "id": "07891150091184",
     "name": "Shampoo tresemmé hidratação profunda 650ml",
-    "score": 18.7594
-   },
-   {
-    "id": "07891150091122",
-    "name": "Shampoo tresemmé reconstrução & força 650ml",
     "score": 18.7594
    }
   ]
@@ -7855,13 +7855,13 @@
     "score": 23.0345
    },
    {
-    "id": "07891150081208",
-    "name": "Maionese tradicional hellmann's 750g",
+    "id": "07891150027800",
+    "name": "Maionese tradicional hellmann's 335g",
     "score": 23.0345
    },
    {
-    "id": "07891150027800",
-    "name": "Maionese tradicional hellmann's 335g",
+    "id": "07891150081208",
+    "name": "Maionese tradicional hellmann's 750g",
     "score": 23.0345
    },
    {
@@ -7882,13 +7882,13 @@
     "score": 30.3802
    },
    {
-    "id": "07896022086787",
-    "name": "Biscoito de maizena isabela 350g",
+    "id": "07896022207731",
+    "name": "Biscoito de maizena a original 360g",
     "score": 13.5718
    },
    {
-    "id": "07896022207731",
-    "name": "Biscoito de maizena a original 360g",
+    "id": "07896022086787",
+    "name": "Biscoito de maizena isabela 350g",
     "score": 13.5718
    },
    {
@@ -7988,13 +7988,13 @@
     "score": 21.6217
    },
    {
-    "id": "07896423456561",
-    "name": "Chocolate snickers mousse de maracujá 42g",
+    "id": "07896423497984",
+    "name": "Chocolate snickers pé de moleque 42g",
     "score": 19.9731
    },
    {
-    "id": "07896423497984",
-    "name": "Chocolate snickers pé de moleque 42g",
+    "id": "07896423456561",
+    "name": "Chocolate snickers mousse de maracujá 42g",
     "score": 19.9731
    }
   ]

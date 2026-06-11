@@ -73,7 +73,7 @@ def make_dense_ranker(model, catalog, emb):
         q = model.encode([normalize(text)], normalize_embeddings=True,
                          convert_to_numpy=True)[0]
         sims = emb @ q                      # cosseno (vetores já normalizados)
-        top = np.argsort(-sims)[:k]
+        top = np.argsort(-sims, kind="stable")[:k]   # desempate determinístico
         return [(ids[i], float(sims[i])) for i in top]
 
     return rank
@@ -89,7 +89,7 @@ def make_hybrid_ranker(model, catalog, emb, n_candidates=50):
         q = model.encode([normalize(text)], normalize_embeddings=True,
                          convert_to_numpy=True)[0]
         sims = emb[cand] @ q
-        order = np.argsort(-sims)[:k]
+        order = np.argsort(-sims, kind="stable")[:k]  # desempate determinístico
         return [(ids[cand[i]], float(sims[i])) for i in order]
 
     return rank

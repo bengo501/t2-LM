@@ -41,10 +41,10 @@ modelo multilíngue <code>paraphrase-multilingual-MiniLM-L12-v2</code> (Sentence
 nas variantes busca densa e híbrida (BM25 top-50 → re-ranqueamento neural). No conjunto de
 teste (250 queries), a melhor variante clássica (TF-IDF de caracteres) atingiu
 <b>P@1&nbsp;=&nbsp;0,992</b>, MRR@5&nbsp;=&nbsp;0,996 e R@5&nbsp;=&nbsp;1,000, superando a melhor variante
-neural (P@1&nbsp;=&nbsp;0,940). A análise qualitativa mostra que o pré-processamento é decisivo
-para ambas as abordagens (sem ele, a neural cai de P@1&nbsp;0,916 para 0,516 na validação) e
+neural (P@1&nbsp;=&nbsp;0,944). A análise qualitativa mostra que o pré-processamento é decisivo
+para ambas as abordagens (sem ele, a neural cai de P@1&nbsp;0,920 para 0,520 na validação) e
 que os erros remanescentes se concentram em variantes quase idênticas do mesmo produto
-(multipack, sabor, cor).</p>
+(multipack, sabor, cor, tamanho).</p>
 
 <h2>1. Referencial Teórico</h2>
 
@@ -93,8 +93,9 @@ discutimos o uso de LLMs como melhoria futura (Seção 5).</p>
       <code>src/approach2_deep.py</code>), incluindo a estratégia híbrida BM25&nbsp;→&nbsp;re-rank
       neural e o cache de embeddings;</li>
   <li>O script de avaliação com as métricas P@1, MRR@5 e R@5 (<code>src/evaluate.py</code>);</li>
-  <li>Exploração dos dados e análises qualitativas (<code>src/explore.py</code>,
-      <code>src/qualitative.py</code>, <code>src/run_no_match.py</code>).</li>
+  <li>Exploração dos dados, análises qualitativas e preenchimento de
+      <code>queries.csv</code> (<code>src/explore.py</code>, <code>src/qualitative.py</code>,
+      <code>src/run_no_match.py</code>, <code>src/fill_queries.py</code>).</li>
 </ul>
 <p><b>Reaproveitado de bibliotecas públicas:</b> <code>TfidfVectorizer</code> e
 <code>cosine_similarity</code> do scikit-learn; o modelo pré-treinado
@@ -113,7 +114,9 @@ consultas não rotuladas (mediana de 7 tokens), com forte presença de tokens de
 queries cada) têm 100% dos <code>matched_id</code> presentes no catálogo (não há NO_MATCH
 rotulado) e estilo mais descritivo que o de <code>queries.csv</code>. Identificamos ainda
 famílias inteiras de queries NO_MATCH em <code>queries.csv</code>: marcas como Qualitá
-(1.234 ocorrências), Taeq, Swift, Carnilove e Mormaii não existem no catálogo.</p>
+(1.234 ocorrências), Taeq, Swift, Carnilove e Mormaii não existem no catálogo — e até a
+"SKOL LATA 350ml" dos exemplos do enunciado não existe neste catálogo (que só tem Skol
+Beats).</p>
 
 <h3>3.2 Pré-processamento (comum às duas abordagens)</h3>
 <p>Aplicado tanto às queries quanto aos nomes do catálogo (nome + marca, quando a marca
@@ -144,6 +147,12 @@ modelo neural (105,6&nbsp;s em CPU; embeddings cacheados em disco). Duas variant
 <b>densa</b> — cosseno entre o embedding da query e todos os produtos; <b>híbrida</b>
 (recomendada no enunciado) — BM25 seleciona 50 candidatos e o modelo neural decide o ranking
 final, reduzindo o espaço de busca e o custo.</p>
+<p><b>Desempate determinístico.</b> Produtos com score idêntico (ex.: nomes duplicados no
+catálogo, ou versões unitária × multipack que se tornam iguais após o pré-processamento)
+são ordenados de forma estável pela ordem do catálogo. Sem isso, o resultado dependeria de
+um desempate arbitrário do algoritmo de ordenação — detectamos variações de até ±0,8 ponto
+percentual em P@1 entre implementações de ordenação diferentes, o que comprometeria a
+reprodutibilidade.</p>
 <p><b>Protocolo de avaliação.</b> Todas as decisões (escolha de variantes, ablações,
 hiperparâmetros) foram tomadas exclusivamente sobre <code>queries_val.csv</code>. O conjunto
 <code>queries_test.csv</code> foi usado uma única vez, ao final, para as métricas
@@ -154,28 +163,29 @@ definitivas. Métricas: P@1, MRR@5 e R@5, conforme o enunciado.</p>
 <h3>4.1 Validação (desenvolvimento) — 250 queries</h3>
 <table>
 <tr><th>Variante</th><th class="num">P@1</th><th class="num">MRR@5</th><th class="num">R@5</th><th class="num">Tempo (250 q)</th></tr>
-<tr><td>TF-IDF palavras (1–2)</td><td class="num">0,944</td><td class="num">0,968</td><td class="num">1,000</td><td class="num">2,1 s</td></tr>
-<tr class="best"><td>TF-IDF caracteres (3–5)</td><td class="num">0,972</td><td class="num">0,985</td><td class="num">1,000</td><td class="num">17,4 s</td></tr>
-<tr><td>BM25 (k₁=1,5; b=0,75)</td><td class="num">0,956</td><td class="num">0,977</td><td class="num">1,000</td><td class="num">0,4 s</td></tr>
-<tr><td>Neural densa</td><td class="num">0,916</td><td class="num">0,943</td><td class="num">0,984</td><td class="num">9,3 s</td></tr>
-<tr><td>Neural híbrida (BM25 top-50 → re-rank)</td><td class="num">0,920</td><td class="num">0,950</td><td class="num">0,992</td><td class="num">8,4 s</td></tr>
+<tr><td>TF-IDF palavras (1–2)</td><td class="num">0,952</td><td class="num">0,972</td><td class="num">1,000</td><td class="num">1,1 s</td></tr>
+<tr class="best"><td>TF-IDF caracteres (3–5)</td><td class="num">0,972</td><td class="num">0,983</td><td class="num">1,000</td><td class="num">12,5 s</td></tr>
+<tr><td>BM25 (k₁=1,5; b=0,75)</td><td class="num">0,964</td><td class="num">0,980</td><td class="num">1,000</td><td class="num">0,3 s</td></tr>
+<tr><td>Neural densa</td><td class="num">0,920</td><td class="num">0,945</td><td class="num">0,984</td><td class="num">7,3 s</td></tr>
+<tr><td>Neural híbrida (BM25 top-50 → re-rank)</td><td class="num">0,924</td><td class="num">0,952</td><td class="num">0,992</td><td class="num">6,6 s</td></tr>
 </table>
-<p><b>Ablações na validação:</b> (i) indexar só o nome, sem a marca, variou no máximo ±1
-acerto (±0,004) — mantivemos nome+marca; (ii) <b>sem pré-processamento</b>, a abordagem
-neural despenca: densa P@1&nbsp;=&nbsp;0,516 e híbrida 0,592 (vs. 0,916/0,920) — ou seja, a
-normalização de abreviações e unidades é crítica mesmo para modelos semânticos, que não
-reconhecem jargões de pedido como <code>C/6</code> ou <code>CERV</code>.</p>
+<p><b>Ablações na validação:</b> (i) indexar só o nome do produto, sem acrescentar a marca,
+não alterou nenhuma métrica das variantes clássicas — mantivemos nome+marca por robustez;
+(ii) <b>sem pré-processamento</b>, a abordagem neural despenca: densa P@1&nbsp;=&nbsp;0,520 e
+híbrida 0,588 (vs. 0,920/0,924) — ou seja, a normalização de abreviações e unidades é
+crítica mesmo para modelos semânticos, que não reconhecem jargões de pedido como
+<code>C/6</code> ou <code>CERV</code>.</p>
 <p>Com base na validação, selecionamos <b>TF-IDF de caracteres</b> como variante final da
 Abordagem 1 e <b>híbrida</b> como variante final da Abordagem 2.</p>
 
 <h3>4.2 Teste (métricas definitivas) — 250 queries</h3>
 <table>
 <tr><th>Abordagem</th><th class="num">P@1</th><th class="num">MRR@5</th><th class="num">R@5</th><th class="num">Tempo (250 q)</th><th>Custo</th><th>Complexidade</th></tr>
-<tr class="best"><td>Ab. 1 — TF-IDF caracteres</td><td class="num">0,992</td><td class="num">0,996</td><td class="num">1,000</td><td class="num">14,0 s</td><td>Gratuito (CPU)</td><td>Baixa</td></tr>
-<tr><td>Ab. 1 — BM25 (própria)</td><td class="num">0,976</td><td class="num">0,987</td><td class="num">1,000</td><td class="num">0,3 s</td><td>Gratuito (CPU)</td><td>Baixa</td></tr>
-<tr><td>Ab. 1 — TF-IDF palavras</td><td class="num">0,920</td><td class="num">0,952</td><td class="num">0,996</td><td class="num">1,6 s</td><td>Gratuito (CPU)</td><td>Baixa</td></tr>
-<tr><td>Ab. 2 — Neural densa</td><td class="num">0,940</td><td class="num">0,960</td><td class="num">0,984</td><td class="num">10,1 s</td><td>Gratuito (CPU local)</td><td>Média</td></tr>
-<tr><td>Ab. 2 — Neural híbrida</td><td class="num">0,940</td><td class="num">0,960</td><td class="num">0,984</td><td class="num">8,9 s *</td><td>Gratuito (CPU local)</td><td>Média</td></tr>
+<tr class="best"><td>Ab. 1 — TF-IDF caracteres</td><td class="num">0,992</td><td class="num">0,996</td><td class="num">1,000</td><td class="num">12,2 s</td><td>Gratuito (CPU)</td><td>Baixa</td></tr>
+<tr><td>Ab. 1 — BM25 (própria)</td><td class="num">0,988</td><td class="num">0,992</td><td class="num">1,000</td><td class="num">0,2 s</td><td>Gratuito (CPU)</td><td>Baixa</td></tr>
+<tr><td>Ab. 1 — TF-IDF palavras</td><td class="num">0,932</td><td class="num">0,958</td><td class="num">0,996</td><td class="num">1,1 s</td><td>Gratuito (CPU)</td><td>Baixa</td></tr>
+<tr><td>Ab. 2 — Neural densa</td><td class="num">0,944</td><td class="num">0,962</td><td class="num">0,984</td><td class="num">8,7 s</td><td>Gratuito (CPU local)</td><td>Média</td></tr>
+<tr><td>Ab. 2 — Neural híbrida</td><td class="num">0,944</td><td class="num">0,962</td><td class="num">0,984</td><td class="num">6,6 s *</td><td>Gratuito (CPU local)</td><td>Média</td></tr>
 </table>
 <p style="font-size:9pt">* mais 105,6&nbsp;s de indexação única do catálogo (amortizada; o cache em disco elimina esse custo nas execuções seguintes).</p>
 
@@ -186,79 +196,99 @@ base lexical do catálogo, mesmo com ordem de palavras diferente
 soltíssimo sadia 200g"</i>) e queries abreviadas após normalização
 (<i>"CORONA CERO SUNBREW LONG NECK 330ML - C/24"</i> é resolvida pelo TF-IDF-char).</p>
 
-<p><b>Erros da Abordagem 1 (apenas 2 no teste).</b> Ambos são variantes quase idênticas do
-produto correto: <i>"Refrigerante Laranja Fanta Lata 350ml"</i> → previu a versão
-<i>"…lata 350ml <b>12 un</b>"</i> (empate técnico, Δscore&nbsp;=&nbsp;0,0000; o correto ficou em 2º);
-e <i>"Espumante Casa Valduga Arte Tradicional Brut 750ml"</i> → previu <i>brut <b>rosé</b></i>
-em vez de <i>brut <b>branco</b></i> (a query não especifica a cor — caso genuinamente
-ambíguo).</p>
+<p><b>Erros da Abordagem 1 (apenas 2 no teste).</b>
+<i>"Fralda Pampers Confort Sec G <b>128 Unidades</b>"</i> → previu a versão de
+<i><b>60 unidades</b></i>: nosso pré-processamento remove "&lt;n&gt; unidades" por ser, em
+geral, multiplicidade de embalagem — mas em fraldas a contagem É o tamanho do produto, e as
+duas versões ficam idênticas após a normalização (empate exato; o correto ficou em 2º).
+<i>"Espumante Casa Valduga Arte Tradicional Brut 750ml"</i> → previu <i>brut <b>rosé</b></i>
+em vez de <i>brut <b>branco</b></i>: a query não especifica a cor — caso genuinamente
+ambíguo.</p>
 
-<p><b>Erros da Abordagem 2 (15 no teste), em três padrões:</b></p>
+<p><b>Erros da Abordagem 2 (14 no teste), em três padrões:</b></p>
 <ul>
 <li><b>Variante/sabor errado</b> (9 casos): <i>"Refresco em Pó Maracujá Tang"</i> →
     <i>"…manga Tang"</i>; <i>"Colgate Total 12 Antitártaro"</i> → <i>"…gengiva reforçada"</i>.
     Embeddings aproximam sabores/variantes semanticamente próximos, perdendo o detalhe
     lexical que decide o match;</li>
-<li><b>Categoria errada por proximidade semântica</b> (3 casos): <i>"Pipoca para Microondas
+<li><b>Tamanho/quantidade errada</b> (4 casos): <i>"Salsicha Viena Ceratti 500g"</i> →
+    <i>"Salsicha Viena Perdigão 500g"</i> (priorizou o peso, errou a marca);</li>
+<li><b>Categoria errada por proximidade semântica</b> (1 caso): <i>"Pipoca para Microondas
     YOKI"</i> → <i>"Saco hermético para freezer e microondas"</i> — o termo dominante no
-    embedding ("microondas") arrasta o match para outra categoria;</li>
-<li><b>Tamanho/quantidade errada</b> (3 casos): <i>"Salsicha Viena Ceratti 500g"</i> →
-    <i>"Salsicha Viena Perdigão 500g"</i> (priorizou o peso, errou a marca).</li>
+    embedding ("microondas") arrasta o match para outra categoria.</li>
 </ul>
 
-<p><b>Comparação direta (teste):</b> em 14 queries o clássico acertou onde o neural errou;
-em apenas 1 o neural acertou onde o clássico errou (a Fanta multipack, por desempate
-fortuito); 1 erro em comum (Casa Valduga, ambíguo). Não identificamos um "tipo" de query em
-que a abordagem neural seja sistematicamente melhor neste dataset — o vocabulário do
-catálogo é controlado e, após a normalização, o casamento lexical é quase sempre suficiente.
-A vantagem teórica dos embeddings (sinonímia: <i>"refrigerante de cola"</i> ≈
-<i>"coca-cola"</i>) raramente é exigida pelas queries avaliadas.</p>
+<p><b>Comparação direta (teste):</b> em 12 queries o clássico acertou onde o neural errou;
+em nenhuma o neural acertou onde o clássico errou; 2 erros em comum (a fralda e o espumante,
+ambos ambíguos). Não identificamos um tipo de query em que a abordagem neural seja
+sistematicamente melhor neste dataset — o vocabulário do catálogo é controlado e, após a
+normalização, o casamento lexical é quase sempre suficiente. A vantagem teórica dos
+embeddings (sinonímia: <i>"refrigerante de cola"</i> ≈ <i>"coca-cola"</i>) raramente é
+exigida pelas queries avaliadas.</p>
 
 <p><b>Casos ambíguos.</b> O catálogo tem 29 nomes duplicados sob ids distintos (ex.:
 <i>"Adoçante líquido sucralose linea 75ml"</i> com dois EANs) — nesses casos nenhum sistema
 distingue os ids apenas pelo texto. No teste, os empates relevantes são versões unitárias ×
-multipack (<i>"…lata 350ml"</i> × <i>"…lata 350ml 12 un"</i>, Δscore&nbsp;=&nbsp;0,0000) e variantes
-de cor não especificadas na query (brut branco × rosé).</p>
+multipack (<i>"…lata 350ml"</i> × <i>"…lata 350ml 12 un"</i>, Δscore&nbsp;=&nbsp;0,0000), contagens
+removidas pelo pré-processamento (fralda 128 × 60 unidades) e variantes de cor não
+especificadas na query (brut branco × rosé). Com o desempate determinístico pela ordem do
+catálogo, a versão unitária (que aparece primeiro) é preferida — comportamento razoável
+para um sistema de pedidos.</p>
 
 <p><b>Casos NO_MATCH.</b> Val/teste não contêm NO_MATCH, mas <code>queries.csv</code> contém
-famílias inteiras (Qualitá, Taeq, Swift, Carnilove, Mormaii…). Rodamos as duas abordagens
-nessas queries (<code>results/no_match.md</code>): nenhuma tem mecanismo nativo de rejeição —
-ambas sempre devolvem algum produto. A diferença está nos scores: no TF-IDF-char, o top-1 de
-queries NO_MATCH fica entre 0,24 e 0,68, bem abaixo do p5 dos matches corretos na validação
-(0,891) — um limiar de rejeição em ≈0,80 separa quase perfeitamente os dois regimes. Já na
-neural os scores continuam altos em NO_MATCH (até 0,90 para o limpador Qualitá, que tem
-substitutos semanticamente próximos), tornando o limiar pouco confiável. Para produção,
-recomendamos o limiar sobre o score do TF-IDF-char, marcando como NO_MATCH e enviando para
-revisão humana tudo abaixo dele.</p>
+famílias inteiras (Qualitá, Taeq, Swift, Carnilove, Mormaii, Skol comum…). Rodamos as duas
+abordagens nessas queries (<code>results/no_match.md</code>): nenhuma tem mecanismo nativo de
+rejeição — ambas sempre devolvem algum produto. A diferença está nos scores. No TF-IDF-char,
+queries NO_MATCH de estilo descritivo ficam entre 0,24 e 0,68, bem abaixo do p5 dos matches
+corretos na validação (0,880). Já na neural os scores continuam altos em NO_MATCH (até 0,90
+para o limpador Qualitá, que tem substitutos semanticamente próximos), tornando o limiar
+pouco confiável. <b>Importante:</b> o limiar depende do estilo da query — em queries
+abreviadas de <code>queries.csv</code>, um match correto pode pontuar ~0,73
+(<i>"FANTA LARANJA 2L C/6"</i>) enquanto NO_MATCHes ficam em ~0,41–0,43
+(<i>"MORMAII LATA BRANCO"</i>, <i>"SKOL LATA 350ml"</i>); para esse estilo, um limiar de
+≈0,55 separa razoavelmente os regimes. Em produção, o limiar deve ser calibrado com uma
+amostra rotulada de cada estilo, enviando para revisão humana o que ficar abaixo.</p>
+
+<p><b>Preenchimento de <code>queries.csv</code>.</b> Conforme a descrição dos dados
+("matched_id — a ser preenchido pelo grupo"), aplicamos a variante vencedora (TF-IDF-char)
+em lote às 16.441 queries: <code>results/queries_preenchido.csv</code> traz
+<code>text</code>, <code>matched_id</code> (top-1) e <code>score</code>, em 9,4&nbsp;s
+(~1.700 queries/s). O arquivo original em <code>Dados/</code> não foi modificado. A coluna
+de score permite filtrar possíveis NO_MATCH (23% das queries pontuam abaixo de 0,45).</p>
 
 <h3>4.4 Tradeoff simplicidade × desempenho</h3>
 <p>Neste problema, o método mais simples é também o mais preciso: o TF-IDF-char vence em
-P@1 e o BM25 entrega 0,976 com custo computacional ~40× menor (0,3&nbsp;s vs. 8,9&nbsp;s + indexação)
+P@1 (0,992) e o BM25 entrega 0,988 com custo computacional ~60× menor (0,2&nbsp;s vs. 12,2&nbsp;s)
 e zero dependências pesadas. A abordagem neural agrega complexidade (download de modelo de
 470&nbsp;MB, PyTorch, indexação) sem ganho de acurácia aqui — mas seria a escolha certa se as
 queries usassem vocabulário livre/sinônimos distantes do catálogo, ou em cenários
 multilíngues. A variante híbrida confirma a recomendação do enunciado: re-ranquear só os
-top-50 do BM25 melhora a R@5 da neural (0,992 vs. 0,984 na validação) e reduz o tempo.</p>
+top-50 do BM25 melhora a R@5 da neural na validação (0,992 vs. 0,984) e reduz o tempo por
+query.</p>
 
 <h2 class="pagebreak">5. Conclusão, Melhorias e Dificuldades</h2>
 <p><b>Conclusões.</b> (1) Em catálogos com vocabulário controlado, métodos clássicos bem
 pré-processados são extremamente competitivos — TF-IDF de caracteres atingiu P@1&nbsp;=&nbsp;0,992
-no teste. (2) O pré-processamento domina o resultado em ambas as abordagens: é ele que traduz
-o jargão dos pedidos (<code>C/6</code>, <code>12X350ML</code>, <code>CERV</code>) para o
-vocabulário do catálogo; sem ele, a neural perde 40 pontos de P@1. (3) Os erros restantes
-não são de "entendimento", mas de granularidade: multipack, sabor e cor — atributos que
-exigem regras de negócio (ex.: extrair e comparar quantidade/sabor como campos
-estruturados), não modelos maiores.</p>
+no teste e o BM25 próprio, 0,988 com tempo de resposta ~1&nbsp;ms/query. (2) O pré-processamento
+domina o resultado em ambas as abordagens: é ele que traduz o jargão dos pedidos
+(<code>C/6</code>, <code>12X350ML</code>, <code>CERV</code>) para o vocabulário do catálogo;
+sem ele, a neural perde 40 pontos de P@1. (3) Os erros restantes não são de "entendimento",
+mas de granularidade: multipack, sabor, cor e contagem — atributos que exigem regras de
+negócio (ex.: extrair e comparar quantidade/sabor como campos estruturados), não modelos
+maiores.</p>
 <p><b>Melhorias futuras.</b> Fine-tuning do bi-encoder com pares positivos minerados de
 <code>queries.csv</code> (triplet loss); re-ranqueamento com cross-encoder ou LLM (zero/few-shot
 sobre os top-10 do BM25), que tende a resolver os empates de variante; extração estruturada
-de atributos (quantidade, sabor, multipack) como filtro pós-ranking; calibração formal do
-limiar de NO_MATCH com um conjunto rotulado de rejeição; fusão de scores
-(BM25&nbsp;+&nbsp;embedding) em vez de cascata.</p>
+de atributos (quantidade, sabor, multipack, contagem de unidades por tipo de produto) como
+filtro pós-ranking; calibração formal do limiar de NO_MATCH por estilo de query; fusão de
+scores (BM25&nbsp;+&nbsp;embedding) em vez de cascata.</p>
 <p><b>Dificuldades.</b> Abreviações ambíguas (<code>COND</code>, <code>SAB</code>) que não
-podem ser expandidas com segurança; variantes multipack idênticas no texto unitário;
-nomes duplicados no catálogo; e, no ambiente Windows, conflito de DLL entre pandas e
-PyTorch (resolvido fixando a ordem de import — documentado no README).</p>
+podem ser expandidas com segurança; a remoção de "&lt;n&gt; unidades" como embalagem apaga
+informação essencial em categorias como fraldas; variantes multipack idênticas no texto
+unitário; nomes duplicados no catálogo; empates de score exigem desempate determinístico
+para reprodutibilidade (variação de até ±0,8 p.p. em P@1 conforme o algoritmo de ordenação);
+e, no ambiente Windows, conflito de DLL entre pandas e PyTorch (resolvido fixando a ordem de
+import — documentado no README).</p>
 
 <h2>6. Referências</h2>
 <ol class="refs">

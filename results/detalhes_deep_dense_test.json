@@ -1221,23 +1221,23 @@
   "gold_name": "Fralda pampers confort sec g 128 unidades",
   "top5": [
    {
-    "id": "07500435130240",
-    "name": "Fralda pampers confort sec g 128 unidades",
-    "score": 1.0
-   },
-   {
     "id": "07500435106672",
     "name": "Fralda pampers confort sec g 60 unidades",
     "score": 1.0
    },
    {
-    "id": "07500435130233",
-    "name": "Fralda pampers confort sec m 148 unidades",
-    "score": 0.9722
+    "id": "07500435130240",
+    "name": "Fralda pampers confort sec g 128 unidades",
+    "score": 1.0
    },
    {
     "id": "07500435106665",
     "name": "Fralda pampers confort sec m 70 unidades",
+    "score": 0.9722
+   },
+   {
+    "id": "07500435130233",
+    "name": "Fralda pampers confort sec m 148 unidades",
     "score": 0.9722
    },
    {
@@ -1637,13 +1637,13 @@
   "gold_name": "Leite uht semidesnatado parmalat garrafa 1 litro",
   "top5": [
    {
-    "id": "07891097001031",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
+    "id": "27891097001035",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
     "score": 1.0
    },
    {
-    "id": "27891097001035",
-    "name": "Leite uht semidesnatado parmalat garrafa 1 litro",
+    "id": "07891097001031",
+    "name": "Leite uht semidesnatado parmalat garrafa 1 litro 6 un",
     "score": 1.0
    },
    {
@@ -5669,13 +5669,13 @@
   "gold_name": "Cerveja corona cero sunbrew long neck 330ml",
   "top5": [
    {
-    "id": "07891991305679",
-    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
+    "id": "07891991304184",
+    "name": "Cerveja corona cero sunbrew long neck 330ml",
     "score": 0.9683
    },
    {
-    "id": "07891991304184",
-    "name": "Cerveja corona cero sunbrew long neck 330ml",
+    "id": "07891991305679",
+    "name": "Cerveja corona cero sunbrew long neck 330ml 6 un",
     "score": 0.9683
    },
    {

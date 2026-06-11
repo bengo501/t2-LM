@@ -17,6 +17,7 @@ import json
 import sys
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -59,8 +60,9 @@ def make_tfidf_ranker(catalog, analyzer="word"):
     def rank(text, k=5):
         q = vec.transform([normalize(text)])
         sims = cosine_similarity(q, doc_matrix).ravel()
-        top = sims.argpartition(-k)[:k] if k >= len(sims) else sims.argpartition(-k)[:k]
-        top = sims.argsort()[::-1][:k]
+        # ordenação estável: empates são resolvidos pela ordem do catálogo,
+        # garantindo resultados determinísticos e reprodutíveis
+        top = np.argsort(-sims, kind="stable")[:k]
         return [(ids[i], float(sims[i])) for i in top]
 
     rank.names = names

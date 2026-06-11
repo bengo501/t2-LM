@@ -37,13 +37,22 @@ INSTALAÇÃO
        Windows (PowerShell):  $env:HF_TOKEN = "hf_..."
        Linux/macOS:           export HF_TOKEN="hf_..."
 
-OBSERVAÇÃO (Windows): em algumas instalações, importar pandas antes de
+OBSERVAÇÕES (Windows): em algumas instalações, importar pandas antes de
 torch causa erro de DLL (c10.dll). Os scripts já importam torch primeiro;
-mantenha essa ordem se criar novos scripts.
+mantenha essa ordem se criar novos scripts. Para usar o NOTEBOOK também é
+necessário pyzmq >= 26 (versões antigas quebram o torch dentro do kernel
+Jupyter): pip install -U pyzmq
 
 COMO REPRODUZIR OS RESULTADOS
 -----------------------------
-Executar a partir da raiz do projeto (a pasta que contém src/ e Dados/):
+Opção A — Notebook (recomendado para a apresentação):
+    abrir T2_Matching_Produtos.ipynb (Jupyter/VS Code) a partir da raiz
+    do projeto e executar todas as células (Run All). O notebook é
+    autocontido: exploração, pré-processamento, as duas abordagens,
+    avaliação val/teste, análise qualitativa, NO_MATCH e preenchimento
+    de queries.csv (~3 min com o cache de embeddings já criado).
+
+Opção B — Scripts, a partir da raiz do projeto (a pasta com src/ e Dados/):
 
 1. Exploração dos dados:
        python src/explore.py
@@ -67,8 +76,14 @@ Executar a partir da raiz do projeto (a pasta que contém src/ e Dados/):
 5. Comportamento em casos NO_MATCH (gera results/no_match.md):
        python src/run_no_match.py
 
+6. Preenchimento de queries.csv — "matched_id a ser preenchido pelo
+   grupo" (gera results/queries_preenchido.csv com text, matched_id e
+   score do top-1; o arquivo original em Dados/ não é modificado):
+       python src/fill_queries.py
+
 ESTRUTURA DO CÓDIGO
 -------------------
+T2_Matching_Produtos.ipynb  notebook autocontido com todo o pipeline
 src/preprocess.py         pré-processamento textual (normalização)
 src/bm25.py               implementação própria do BM25 (Okapi)
 src/evaluate.py           métricas P@1, MRR@5 e R@5
@@ -77,6 +92,8 @@ src/approach2_deep.py     Abordagem 2: embeddings (dense e híbrido)
 src/explore.py            exploração dos dados
 src/qualitative.py        análise qualitativa (acertos/erros/ambíguos)
 src/run_no_match.py       probe de casos NO_MATCH
+src/fill_queries.py       preenchimento em lote de queries.csv
+tools/build_notebook.py   gera o notebook a partir dos módulos de src/
 results/                  saídas (top-5 por query, análises em Markdown)
 relatorio.pdf             relatório completo do trabalho
 relatorio.html            fonte do relatório; para regenerar o PDF após editar:
@@ -86,5 +103,7 @@ relatorio.html            fonte do relatório; para regenerar o PDF após editar
 MÉTRICAS FINAIS (queries_test.csv, 250 queries)
 -----------------------------------------------
 Abordagem 1 — TF-IDF char (3-5):  P@1=0.992  MRR@5=0.996  R@5=1.000
-Abordagem 1 — BM25:               P@1=0.976  MRR@5=0.987  R@5=1.000
-Abordagem 2 — híbrida (BM25+NN):  P@1=0.940  MRR@5=0.960  R@5=0.984
+Abordagem 1 — BM25:               P@1=0.988  MRR@5=0.992  R@5=1.000
+Abordagem 2 — híbrida (BM25+NN):  P@1=0.944  MRR@5=0.962  R@5=0.984
+(empates de score são resolvidos deterministicamente pela ordem do
+catálogo — ordenação estável; ver seção 3.3 do relatório)

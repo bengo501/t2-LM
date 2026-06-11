@@ -1,6 +1,6 @@
 # Comportamento em casos NO_MATCH
 
-Referência (validação, tfidf_char): score top-1 dos matches corretos tem média 0.962 e percentil 5 = 0.891.
+Referência (validação, tfidf_char): score top-1 dos matches corretos tem média 0.963 e percentil 5 = 0.891.
 
 
 ## Queries NO_MATCH (produto não existe no catálogo)
@@ -11,7 +11,7 @@ Referência (validação, tfidf_char): score top-1 dos matches corretos tem méd
 | Abordagem | Top-3 | Scores |
 |---|---|---|
 | tfidf_char | Pão de ló branco rio branco 300g; Molho branco santa clara 250g; Molho branco elegê 200g | 0.407, 0.269, 0.268 |
-| deep_hybrid | Pão de ló branco rio branco 300g; Cerveja patagonia weisse lata 473ml 6 un; Nozes pecan caramelizadas pecanita lata 100g | 0.447, 0.351, 0.339 |
+| deep_hybrid | Pão de ló branco rio branco 300g; Nozes pecan agridoce pecanita lata 100g; Cerveja patagonia weisse lata 473ml 6 un | 0.447, 0.412, 0.351 |
 
 **Limpador para Casa Perfumado QUALITÁ Lavanda 2 litros**
 
@@ -25,7 +25,7 @@ Referência (validação, tfidf_char): score top-1 dos matches corretos tem méd
 | Abordagem | Top-3 | Scores |
 |---|---|---|
 | tfidf_char | Farinha de chia e linhaça chiaça orgânico ecobio 250g; Farinha de trigo farina 1kg; Iogurte de morango parmalat fit pouch 100g | 0.384, 0.372, 0.349 |
-| deep_hybrid | Iogurte de morango parmalat fit pouch 100g; Farinha de aveia nestlé 170g; Farinha panko grano divino 200g | 0.681, 0.663, 0.655 |
+| deep_hybrid | Iogurte de morango parmalat fit pouch 100g; Farinha de aveia nestlé 170g; Farinha de amêndoa geração saúde 120g | 0.681, 0.663, 0.638 |
 
 **Rabo de Bovino Congelado SWIFT 2Kg**
 
@@ -46,14 +46,14 @@ Referência (validação, tfidf_char): score top-1 dos matches corretos tem méd
 | Abordagem | Top-3 | Scores |
 |---|---|---|
 | tfidf_char | Cachaça salinas umburana 700ml; Cachaça weber haus amburana 700ml; Cachaça 7 campos reserva ouro amburana 970ml | 0.683, 0.478, 0.438 |
-| deep_hybrid | Cachaça salinas umburana 700ml; Cachaça com mel e limão 51 740ml; Cachaça salinas tradicional 670ml | 0.790, 0.695, 0.682 |
+| deep_hybrid | Cachaça salinas umburana 700ml; Óleo de amendoim extravirgem pazze 250ml; Cachaça com mel e limão 51 740ml | 0.790, 0.773, 0.695 |
 
 **CHICLETE BUZZY ROSA MORANGO**
 
 | Abordagem | Top-3 | Scores |
 |---|---|---|
 | tfidf_char | Pirulito flopito chiclé tutti-frutti florestal 600g; Morango 250g; Suco de morango vigor 200ml | 0.239, 0.232, 0.229 |
-| deep_hybrid | Chinelo ipanema glitter rosa 37/38; Estojo box rosa luxcel; Sabonete em barra francis brasilidades manga rosa 80g | 0.649, 0.559, 0.535 |
+| deep_hybrid | Chinelo ipanema glitter rosa 37/38; Estojo box rosa luxcel; Torta de morango pequena zaffari | 0.649, 0.559, 0.558 |
 
 ## Queries de controle (produto existe)
 
